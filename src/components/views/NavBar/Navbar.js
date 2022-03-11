@@ -27,7 +27,7 @@ const Navbar = () => {
             <Link to={"/howWeLook/" + lastHowWeLookId}>Na co patrzymy?</Link>  
           </li>
           <li>
-            <Link to={"/about"}>O nas...</Link>
+            <Link to={"/about"}>O nas... </Link>
           </li>
         </ul>
       </li>
