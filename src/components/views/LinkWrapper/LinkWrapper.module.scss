@@ -1,0 +1,119 @@
+@import "../../../styles/settings.scss";
+
+.linkWrapper {
+  flex: 0 0 100%;
+  margin-top: 50px;
+  max-width: 400px;
+  background-color: $color-nav;
+  color: #fff;
+  text-align: center;
+  font-family: $font-header;
+  font-size: 20px;
+  box-shadow: 2px 2px 5px #000;
+  border-radius: 20px;
+}
+
+.linkWrapper p {
+  margin: 0;
+  padding: 5px;
+  font-weight: $font-bold;
+}
+
+.linkWrapper p:first-child {
+  font-size: 16px;
+  font-weight: $font-regular;
+  padding-top: 10px;
+}
+
+.linkWrapper div {
+  text-align: right;
+  margin-top: 5px;
+  padding-bottom: 5px;
+}
+
+.linkWrapper a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .linkWrapper {
+    margin-top: 40px;
+    max-width: 350px;
+    font-size: 16px;
+  }
+
+  .linkWrapper p:first-child {
+    font-size: 14px;
+  }
+
+  .linkWrapper a {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1023px) {
+  .linkWrapper {
+    margin-top: 40px;
+    max-width: 330px;
+    font-size: 15px;
+  }
+
+  .linkWrapper p:first-child {
+    font-size: 13px;
+  }
+
+  .linkWrapper a {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .linkWrapper {
+    margin-top: 40px;
+    max-width: 330px;
+    font-size: 15px;
+  }
+
+  .linkWrapper p:first-child {
+    font-size: 13px;
+  }
+
+  .linkWrapper a {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 411px) and (max-width: 767px) {
+  .linkWrapper {
+    margin-top: 40px;
+    max-width: 330px;
+    font-size: 15px;
+  }
+
+  .linkWrapper p:first-child {
+    font-size: 13px;
+  }
+
+  .linkWrapper a {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 410px) {
+  .linkWrapper {
+    margin-top: 40px;
+    max-width: 330px;
+    font-size: 15px;
+  }
+
+  .linkWrapper p:first-child {
+    font-size: 13px;
+  }
+
+  .linkWrapper a {
+    font-size: 14px;
+  }
+}

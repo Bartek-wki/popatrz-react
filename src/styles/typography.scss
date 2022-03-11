@@ -1,0 +1,194 @@
+@import './settings.scss';
+
+h1 {
+  font-family: $font-header;
+  color: $color-light;
+  font-weight: $font-bold;
+  text-align: center;
+  font-size: 140px;
+  margin: 0;
+  letter-spacing: 40px;
+}
+
+h2 {
+  font-family: $font-header-two;
+  font-weight: $font-regular;
+  color: $color-light;
+  margin: -40px 0 0 0;
+  position: absolute;
+  right: 0px;
+  font-size: 80px;
+}
+
+h3 {
+  font-family: $font-header;
+  text-transform: uppercase;
+  color: $color-dark;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+h4 {
+  font-family: $font-header;
+  text-transform: uppercase;
+  color: $color-nav;
+  font-size: 32px;
+  margin: 5px;
+  letter-spacing: 2px;
+}
+
+h5 {
+  font-family: $font-header;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  margin: 5px;
+  letter-spacing: 1px;
+}
+
+h6 {
+  font-family: $font-header;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 5px 5px 15px 5px;
+  letter-spacing: 1px;
+}
+
+@media (min-width: 1280px) and (max-width: 1365px) {
+  h3 {
+    font-size: 35px;
+  }
+
+  h4 {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  h1 {
+    font-size: 120px;
+    letter-spacing: 40px;
+  }
+
+  h2 {
+    margin: -40px 0 0 0;
+    right: 0px;
+    font-size: 70px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 25px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1023px) {
+  h1 {
+    font-size: 110px;
+    letter-spacing: 40px;
+  }
+
+  h2 {
+    margin: -40px 0 0 0;
+    right: 0px;
+    font-size: 55px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 25px;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  h1 {
+    font-size: 90px;
+    letter-spacing: 35px;
+  }
+
+  h2 {
+    margin: -30px 0 0 0;
+    right: 0px;
+    font-size: 55px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 411px) and (max-width: 767px) {
+  h1 {
+    font-size: 60px;
+    letter-spacing: 13px;
+  }
+
+  h2 {
+    margin: -20px 0 0 0;
+    right: 0px;
+    font-size: 53px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+
+  h6 {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 410px) {
+  h1 {
+    font-size: 60px;
+    letter-spacing: 7px;
+  }
+
+  h2 {
+    margin: -20px 0 0 0;
+    right: 0px;
+    font-size: 53px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+}

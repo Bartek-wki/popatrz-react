@@ -1,0 +1,55 @@
+@import './settings.scss';
+
+body {
+  margin: 0;
+  background-color: lighten($color-black, 75%);
+  font-family: $font-text;
+  font-size: 16px;
+  font-weight: $font-regular;
+  color: $color-dark;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navbar {
+  flex: 0 0 100%;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1023px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 411px) and (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 410px) {
+  body {
+    font-size: 14px;
+  }
+}

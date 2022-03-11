@@ -1,0 +1,271 @@
+@import "../../../styles/settings.scss";
+
+.container {
+  flex: 0 0 70%;
+  max-width: 800px;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.articleSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.articleWrapper {
+  background-color: #fff;
+  //box-shadow: 1px 1px 5px $color-dark;
+}
+
+.imageWrapper {
+  max-width: 600px;
+  height: 400px;
+  margin-bottom: 15px;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 3px 3px 10px #000;
+}
+
+.articleHeader {
+  flex: 0 0 100%;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.textWrapper {
+  max-width: 700px;
+}
+
+.textWrapper .text {
+  text-align: justify;
+  line-height: 1.5;
+  text-indent: 25px;
+}
+
+.textWrapper .quote {
+  font-family: $font-header-two;
+  font-size: 22px;
+  text-align: center;
+  background-color: #eeeeee42;
+  padding: 15px;
+}
+
+.socialMedia {
+  flex: 0 0 100%;
+  text-align: right;
+  margin-bottom: 20px;
+  position: relative;
+  bottom: 10px;
+  right: 10px;
+}
+
+.socialMedia a {
+  font-size: 0px;
+  color: $color-nav;
+}
+
+.socialMedia i {
+  font-size: 50px;
+}
+
+@media (min-width: 1366px) and (max-width: 1439px) {
+  .container {
+    max-width: 800px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1365px) {
+  .textWrapper {
+    max-width: 600px;
+  }
+
+  .imageWrapper {
+    max-width: 500px;
+    height: 350px;
+    margin-bottom: 10px;
+  }
+  .container {
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .container {
+    max-width: 600px;
+  }
+
+  .imageWrapper {
+    max-width: 400px;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+
+  .articleHeader {
+    margin: 20px 0 30px 0;
+  }
+
+  .textWrapper {
+    max-width: 550px;
+  }
+
+  .textWrapper .quote {
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .socialMedia i {
+    font-size: 40px;
+  }
+}
+  
+@media (min-width: 992px) and (max-width: 1023px) {
+  .container {
+    max-width: 550px;
+  }
+
+  .imageWrapper {
+    max-width: 350px;
+    height: 250px;
+    margin-bottom: 10px;
+  }
+
+  .articleHeader {
+    margin: 10px 0 30px 0;
+  }
+
+  .textWrapper {
+    max-width: 500px;
+  }
+
+  .textWrapper .quote {
+    font-size: 20px;
+    padding: 8px;
+    margin: 0;
+  }
+
+  .socialMedia i {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    flex: 0 0 90%;
+    max-width: 700px;
+  }
+
+  .imageWrapper {
+    max-width: 450px;
+    height: 350px;
+    margin-bottom: 10px;
+  }
+
+  .articleHeader {
+    margin: 10px 0 30px 0;
+  }
+
+  .textWrapper {
+    max-width: 700px;
+  }
+
+  .textWrapper .quote {
+    font-size: 20px;
+    padding: 8px;
+    margin: 0;
+  }
+
+  .socialMedia i {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 411px) and (max-width: 767px) {
+  .container {
+    flex: 0 0 100%;
+    max-width: 400px;
+    padding: 0;
+  }
+
+  .imageWrapper {
+    max-width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+
+  .articleHeader {
+    margin: 10px 0 30px 0;
+  }
+
+  .textWrapper {
+    max-width: 400px;
+    padding: 0 10px 0 10px;
+  }
+
+  .textWrapper .text {
+    text-align: start;
+  }
+
+
+  .textWrapper .quote {
+    font-size: 20px;
+    padding: 8px;
+    margin: 0;
+  }
+
+  .socialMedia i {
+    font-size: 35px;
+  }
+
+  .socialMedia {
+    bottom: -10px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 410px) {
+  .container {
+    flex: 0 0 100%;
+    max-width: 350px;
+    padding: 0;
+  }
+
+  .imageWrapper {
+    max-width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+
+  .articleHeader {
+    margin: 10px 0 30px 0;
+  }
+
+  .textWrapper {
+    max-width: 350px;
+    padding: 0 10px 0 10px;
+  }
+
+  .textWrapper .text {
+    text-align: start;
+  }
+
+  .textWrapper .quote {
+    font-size: 20px;
+    padding: 8px;
+    margin: 0;
+  }
+
+  .socialMedia i {
+    font-size: 35px;
+  }
+
+  .socialMedia {
+    bottom: -10px;
+  }
+}

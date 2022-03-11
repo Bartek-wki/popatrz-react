@@ -1,0 +1,43 @@
+@import "../../../styles/settings.scss";
+
+
+.articleNav {
+  height: 50px;
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+.articleNav li {
+  font-size: 50px;
+  margin: 0 25px;
+}
+
+.articleNav a {
+  color: $color-nav;
+  font-size: 0px;
+}
+
+.articleNav i {
+  font-size: 50px;
+  color: $color-nav;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .articleNav i {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .articleNav i {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 767px) {
+  .articleNav i {
+    font-size: 30px;
+  }
+}
+

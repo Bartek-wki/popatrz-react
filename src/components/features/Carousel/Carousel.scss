@@ -1,0 +1,32 @@
+.flickity-viewport {
+  height: 450px;
+}
+
+.flickity-cell {
+  height: 100%;
+  margin-right: 15px;
+}
+
+.carousel {
+  background: #eee;
+  z-index: 15;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+.flickity-viewport {
+  height: 350px;
+  }
+}
+
+@media (min-width: 411px) and (max-width: 767px) {
+.flickity-viewport {
+  height: 350px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 410px) {
+.flickity-viewport {
+  height: 250px;
+  }
+}
