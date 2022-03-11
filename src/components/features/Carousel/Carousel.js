@@ -1,6 +1,6 @@
 import React from "react";
 import Flickity from 'react-flickity-component'
-import 'flickity/scss/flickity.scss';
+import 'flickity/css/flickity.css';
 import './Carousel.scss'
 
 const Carousel = () => {
