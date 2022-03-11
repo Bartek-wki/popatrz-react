@@ -8,7 +8,7 @@ const LeftMenu = ({ articles, linkTo, name }) => {
       <div className={styles.scroll}>
         <ul className={styles.leftMenuArticle}>
           {articles.map(article => (
-            <LeftMenuLink key={article.articleId} articleId={article.articleId} mainTopic={article.mainTopic} linkTo={linkTo} name={name} />
+            <LeftMenuLink key={article.articleId} articleId={article.articleId} howWeLookId={article.howWeLook} mainTopic={article.mainTopic} linkTo={linkTo} name={name} />
           ))}
         </ul>
       </div>

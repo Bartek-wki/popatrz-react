@@ -1,253 +1,147 @@
 const initialState = {
   articles: [
     {
-      articleId:"article-02-22",
-      previous:"article-02-22",
-      next:"article-03-22",
-      articleTitle:"Lorem ipsum dolor",
-      imageUrl:"https://images.pexels.com/photos/977659/pexels-photo-977659.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      opis:"krzyż",
-      paragraphOne:"Integer ante nunc, viverra in aliquet quis, rutrum vitae magna. Nulla aliquet risus sagittis molestie viverra. Donec finibus eros vel arcu tincidunt interdum. Sed sed scelerisque nulla, quis ultricies mauris. Donec sed est sit amet erat dignissim tempor. Praesent et metus sed leo efficitur mollis vel ut arcu. Praesent at felis nisi. Donec sagittis sodales ipsum, ultrices semper arcu eleifend consectetur. Duis sit amet diam lacus. Morbi ac ligula fermentum, posuere turpis scelerisque, varius nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer aliquam interdum ultrices. Praesent facilisis vehicula ligula, eu tincidunt magna hendrerit a. In laoreet commodo est, non lacinia lorem ullamcorper aliquet. Vivamus lobortis, enim ut faucibus maximus, magna velit condimentum massa, vitae consequat turpis lectus eu massa. Pellentesque cursus hendrerit nisi, non facilisis lorem ullamcorper at.",
-      quote:"Donec maximus posuere elit, id elementum enim aliquet quis. Mauris pulvinar non ante luctus pellentesque. Sed fringilla turpis metus. Vestibulum bibendum finibus ante ac rhoncus. ~Yoda",
-      paragraphTwo:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin lorem sed faucibus accumsan. Proin cursus nibh nibh, volutpat euismod lectus euismod in. Donec pretium leo at scelerisque rhoncus. Nam porta scelerisque neque sagittis aliquet. Aliquam a ipsum ligula. In tortor felis, sodales id sodales vitae, efficitur tempus est. Vivamus lobortis lectus ac neque ornare, ut feugiat arcu ullamcorper. Vivamus vel dolor mi. Pellentesque eu dui at tellus condimentum viverra. Sed commodo tristique semper. Suspendisse commodo lacus eu ornare tempus. Donec tristique sem pharetra neque maximus semper. Nunc quis finibus sapien. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque eget volutpat felis.",
-      introParagraph:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis pharetra arcu. Mauris tellus mi, pretium posuere efficitur eu, congue ac mauris. Nulla facilisi. Nullam egestas massa ac vehicula porta. Duis condimentum metus semper, facilisis sem in, volutpat est.",
+      articleId:"article-02-22-1",
+      previous:"article-02-22-1",
+      next:"article-02-22-2",
+      articleTitle:"Popatrz… na co?",
+      imageUrl:"popatrz-02-22-1.jpg",
+      opis: "Na co?",
+      paragraphs: [
+        {
+          subtitle: "",
+          text: "Mówi się, że oczy są zwierciadłem duszy. To na co patrzymy i w jaki sposób to robimy, ma wpływ na to kim jesteśmy. Dostrzegając piękno i dobro w otoczeniu, człowiek napełnia się nimi. Rodzi się w nim spokój, a jego serce staje się coraz bardziej otwarte dla innych. Idzie przez życie pełen wzniosłych myśli i pragnień. Czy jednak na co dzień zwracamy uwagę, na co kierujemy nasz wzrok?",
+          quote: "",
+        },
+        {
+          subtitle: "",
+          text: "Środki masowego przekazu nieustannie starają się wywrzeć na nas wpływ, odwracając uwagę od tego co wartościowe. Stawiają na pierwszym miejscu człowieka, jego powierzchowne pragnienia i słabości, a spychają na dalszy plan to, co naprawdę ma znaczenie, co skłania do refleksji i jest wymagające.",
+          quote: "",
+        },
+        {
+          subtitle: "",
+          text: "Od człowieka zależy, czy bezmyślnie podąży za tłumem, czy zatrzyma się i zastanowi nad tym co w życiu istotne.",
+          quote: "",
+        },
+        {
+          subtitle: "",
+          text: "Bądźmy świadomi tego na co patrzymy. Kierujmy nasze spojrzenie zawsze wyżej. Ponad to, co zniekształca obraz rzeczywistości i ponad to, co chce uśmiercić w nas pragnienia pięknego życia. Kierujmy nasze oczy na samego Boga. To on jest Pierwszym i Ostatnim, Początkiem i Końcem. On jest z nami w naszej codzienności, chce udzielić nam ogromu łask, napełnić nas nimi i rozpalić w każdym człowieku niegasnące światło wiary, nadziei i miłości.",
+          quote: "",
+        },
+        {
+          subtitle: "",
+          text: "Kierujmy wzrok na to, co wartościowe, nie marnujmy czasu na to, co nieistotne i dostrzegajmy dzieła Boże dookoła siebie. Niech w naszych oczach odbija się Jego światło.",
+          quote: "",
+        },
+        {
+          subtitle: "Popatrz, zainspiruj się i bądź gotów!",
+          text: "",
+          quote: "",
+        },
+      ],
+      author: "Magdalena Ulman",
+      introParagraph: "Bądźmy świadomi tego na co patrzymy. Kierujmy nasze spojrzenie zawsze wyżej. Ponad to, co zniekształca obraz rzeczywistości i ponad to, co chce uśmiercić w nas pragnienia pięknego życia. Kierujmy nasze oczy na samego Boga.",
       month:"LUTY",
-      mainTopic:"KRZYŻ",
+      mainTopic:"",
+      howWeLook:""
+    },
+    {
+      articleId:"article-02-22-2",
+      previous:"article-02-22-1",
+      next:"article-02-22-2",
+      articleTitle:"Popatrz na… MIŁOŚĆ",
+      imageUrl:"popatrz-02-22-2.jpg",
+      opis: "MIŁOŚĆ",
+      paragraphs: [
+        {
+          subtitle: "",
+          text: "Miłość to jedno z największych słów świata. Przywołuje najpiękniejsze myśli i wspomnienia. Któż nie chciałby kochać i być kochanym? Czym jednak jest miłość? Czy na pewno dobrze rozumiemy znaczenie tego słowa? Miłość to jedno z najczęściej nadużywanych słów. Tak młodsi, jak i starsi często mylą miłość z jej karykaturami, co niejednokrotnie miewa opłakane, wręcz tragiczne skutki. Czym więc miłość jest, a czym zdecydowanie nie jest? Spróbujmy przyjrzeć się najpopularniejszym mitom:",
+          quote: "",
+        },
+        {
+          subtitle: "Mit pierwszy: Miłość to uczucie.",
+          text: "Czym jest miłość? Ilu z nas powiedziałoby, że to uczucie, jakim darzę drugą połówkę. Czy aby na pewno? Ten zestaw uczuć, który sprawia, że „tracimy głowę”, a w brzuchu wciąż czujemy motylki to zakochanie. Ono sprawia, że potrafimy zapomnieć o Bożym świecie, a tego jedynego/tą jedyną widzimy w najpiękniejszych barwach. Stan niezwykle istotny, bo pomaga nam rozpocząć budowanie związku, ale bardzo niebezpieczny, gdy pomylimy go z miłością. Otóż miłości uczucia towarzyszą, ale ona sama zdecydowanie nimi nie jest! Kochać to przeżywać cały wachlarz emocji od tych najbardziej bolesnych do najpiękniejszych. Kochać należy bez względu na uczucia, bo są one zbyt chwiejne i niestałe.",
+          quote: "",
+        },
+        {
+          subtitle: "Mit drugi: Miłość to akceptacja.",
+          text: "Akceptacja to dziś bardzo popularne słowo. „Kocham cię takim, jakim jesteś”, „kocham cię i nie musisz się zmieniać”. Tymczasem miłość powinna wymagać. Jeśli kogoś kochamy, to chcemy jego dobra, a więc jego rozwoju i doskonalenia się. Nie mogę patrzeć obojętnie, gdy ten, którego kocham, zatraca się w grzechu czy niszczy siebie przez własne błędy. Naprawdę kochać to towarzyszyć i pomagać w pokonywaniu własnych słabości, to motywować do podjęcia działań, by stawać się coraz to lepszą wersją siebie.",
+          quote: "",
+        },
+        {
+          subtitle: "Mit trzeci: Miłość to pożądanie",
+          text: "Dzisiejszy świat chce nam wmówić, że istotą miłości jest pożądanie. Takie stwierdzenie to kłamstwo! Każde pożądanie jest skierowane na zaspokajanie własnych zachcianek. To droga egoizmu. Dokładne zaprzeczenie miłości. Miłość to dar z siebie, nieustanne obdarowywanie drugiego tym, co najlepsze, zapominając o sobie. Nawet akt małżeński będzie dopiero wtedy czysty i wyrażający prawdziwą miłość, gdy będzie wynikać z pragnienia ofiarowania siebie współmałżonkowi.",
+          quote: "",
+        },
+        {
+          subtitle: "Czym więc jest miłość?",
+          text: "Miłość jest postawą, poprzedzoną świadomą decyzją, że będę kochał. Miłość nie może się skończyć ani wypalić, bo to my decydujemy o tym, że chcemy dalej kochać. Miłość jest obecnością i ofiarnością. Jeśli kocham, to jestem obok i wspieram drugiego, często wyrzekając się własnych pragnień. Miłość to najpiękniejsza postawa wobec drugiej osoby. To odnoszenie się do siebie z szacunkiem i życzliwością. Dbanie o to, co najpiękniejsze w drugim człowieku i pragnienie, by stawał się on coraz lepszym i bardziej kochającym.",
+          quote: "",
+        },
+        {
+          subtitle: "",
+          text: "",
+          quote: "Miłujcie czystym sercem jedni drugich gorąco. 1 P 1, 22",
+        },
+      ],
+      author: "Aleksandra i Bartosz Wilki",
+      introParagraph: "Miłość to jedno z najczęściej nadużywanych słów. Tak młodsi, jak i starsi często mylą miłość z jej karykaturami, co niejednokrotnie miewa opłakane, wręcz tragiczne skutki. Czym więc miłość jest, a czym zdecydowanie nie jest? Spróbujmy przyjrzeć się najpopularniejszym mitom:",
+      month:"LUTY",
+      mainTopic:"MIŁOŚĆ",
       howWeLook:"howWeLook-02-22"
     },
-    {
-      articleId:"article-03-22",
-      previous:"article-02-22",
-      next:"article-04-22",
-      articleTitle:"Consectetur adipiscing elit",
-      imageUrl:"https://images.pexels.com/photos/7523839/pexels-photo-7523839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      opis:"wiewiórka",
-      paragraphOne:"Phasellus dignissim sapien est, ullamcorper varius neque fringilla vel. Fusce eu augue condimentum, tempor eros vel, fringilla nunc. Morbi mollis sollicitudin pulvinar. Aliquam cursus velit ac eleifend interdum. Nullam rutrum interdum tortor, non vehicula ex pretium et. Suspendisse nec massa metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis accumsan risus a elit aliquam, vel tincidunt risus suscipit. Donec porta ipsum eu pharetra placerat. Pellentesque nec aliquet nisl. Nunc ac tempus arcu, sed tincidunt massa. Etiam efficitur nisl tortor, euismod iaculis justo luctus ut. Cras convallis mollis augue, vitae rutrum orci pharetra vel. Praesent fermentum nec arcu a suscipit. Vivamus et libero blandit velit tincidunt dignissim. Aliquam pulvinar in urna ut suscipit. Donec in blandit velit. Donec efficitur sem augue, a ornare est efficitur sit amet.",
-      quote:"Phasellus dignissim sapien est, ullamcorper varius neque fringilla vel. Fusce eu augue condimentum, tempor eros vel, fringilla nunc",
-      paragraphTwo:"Nunc imperdiet nisi hendrerit convallis bibendum. Nam vitae ipsum a nibh ultrices bibendum. Aliquam tempor gravida libero, nec aliquam neque pretium ut. Fusce rutrum, nibh ut faucibus sagittis, nisi elit pellentesque erat, eu sagittis massa tellus at enim. In maximus fringilla ante, in tempor nisi ullamcorper ut. Ut non posuere ligula, vitae tempor lacus. Proin sit amet ullamcorper arcu, eu porttitor sapien. Maecenas convallis purus consequat quam pellentesque laoreet. Nunc rhoncus volutpat vestibulum. Donec vitae neque in tortor tempor consequat sed vitae justo. Nam varius nisi et odio tristique ultricies. Phasellus ac nisl eget ligula ornare venenatis. Donec efficitur orci a lectus cursus maximus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam dolor mauris, molestie id velit sed, ultricies tempus nunc.",
-      introParagraph:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis pharetra arcu. Mauris tellus mi, pretium posuere efficitur eu, congue ac mauris. Nulla facilisi. Nullam egestas massa ac vehicula porta. Duis condimentum metus semper, facilisis sem in, volutpat est.",
-      month:"MARZEC",
-      mainTopic:"WIEWIÓRKĘ",
-      howWeLook:"howWeLook-03-22"
-    },
-    {
-      articleId:"article-04-22",
-      previous:"article-03-22",
-      next:"article-05-22",
-      articleTitle:"Fusce interdum faucibus",
-      imageUrl:"https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      opis:"delfiny",
-      paragraphOne:"Integer ante nunc, viverra in aliquet quis, rutrum vitae magna. Nulla aliquet risus sagittis molestie viverra. Donec finibus eros vel arcu tincidunt interdum. Sed sed scelerisque nulla, quis ultricies mauris. Donec sed est sit amet erat dignissim tempor. Praesent et metus sed leo efficitur mollis vel ut arcu. Praesent at felis nisi. Donec sagittis sodales ipsum, ultrices semper arcu eleifend consectetur. Duis sit amet diam lacus. Morbi ac ligula fermentum, posuere turpis scelerisque, varius nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer aliquam interdum ultrices. Praesent facilisis vehicula ligula, eu tincidunt magna hendrerit a. In laoreet commodo est, non lacinia lorem ullamcorper aliquet. Vivamus lobortis, enim ut faucibus maximus, magna velit condimentum massa, vitae consequat turpis lectus eu massa. Pellentesque cursus hendrerit nisi, non facilisis lorem ullamcorper at.",
-      quote:"Integer mauris odio, efficitur ut porttitor et, commodo eget tortor. Nulla ullamcorper nulla ut molestie sagittis. Curabitur tempor convallis lorem id semper. Proin at augue arcu.",
-      paragraphTwo:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin lorem sed faucibus accumsan. Proin cursus nibh nibh, volutpat euismod lectus euismod in. Donec pretium leo at scelerisque rhoncus. Nam porta scelerisque neque sagittis aliquet. Aliquam a ipsum ligula. In tortor felis, sodales id sodales vitae, efficitur tempus est. Vivamus lobortis lectus ac neque ornare, ut feugiat arcu ullamcorper. Vivamus vel dolor mi. Pellentesque eu dui at tellus condimentum viverra. Sed commodo tristique semper. Suspendisse commodo lacus eu ornare tempus. Donec tristique sem pharetra neque maximus semper. Nunc quis finibus sapien. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque eget volutpat felis.",
-      introParagraph:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis pharetra arcu. Mauris tellus mi, pretium posuere efficitur eu, congue ac mauris. Nulla facilisi. Nullam egestas massa ac vehicula porta. Duis condimentum metus semper, facilisis sem in, volutpat est.",
-      month:"KWIECIEŃ",
-      mainTopic:"DELFINY",
-      howWeLook:"howWeLook-04-22"
-    },
-    {
-      articleId:"article-05-22",
-      previous:"article-04-22",
-      next:"article-06-22",
-      articleTitle:"Nam posuere erat leo",
-      imageUrl:"https://images.pexels.com/photos/572688/pexels-photo-572688.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      opis:"las",
-      paragraphOne:"Etiam mattis odio nec augue semper viverra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut sed nibh ac quam consectetur ornare. Vivamus in turpis et leo sodales suscipit sed nec tortor. Maecenas a ligula risus. Aenean ut sem lorem. Proin erat nisl, fermentum eu fringilla eu, dictum vitae lacus. Sed at lacinia diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam vestibulum quis sem fringilla vehicula.",
-      quote:"Proin at augue arcu. Aenean eget nisl sed ligula pretium imperdiet. Morbi et augue lacus. Integer vulputate lacus dolor, quis finibus nibh condimentum eu.",
-      paragraphTwo:"Phasellus ex enim, pellentesque in ex non, hendrerit accumsan mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam ac erat at quam commodo ullamcorper. Donec eget elit id diam hendrerit rhoncus ac at quam. Maecenas quis nunc at tellus elementum placerat id et risus. Ut mattis augue at dolor tristique congue. Vivamus iaculis molestie nibh, in suscipit velit ultricies et. Maecenas pulvinar risus aliquam vestibulum efficitur. Mauris nec arcu laoreet, sagittis massa in, dapibus tortor. Nam facilisis mattis nulla sed fermentum.",
-      introParagraph:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis pharetra arcu. Mauris tellus mi, pretium posuere efficitur eu, congue ac mauris. Nulla facilisi. Nullam egestas massa ac vehicula porta. Duis condimentum metus semper, facilisis sem in, volutpat est.",
-      month:"MAJ",
-      mainTopic:"LAS",
-      howWeLook:"howWeLook-05-22"
-    },
-    {
-      articleId:"article-06-22",
-      previous:"article-05-22",
-      next:"article-06-22", 
-      articleTitle:"Mauris malesuada in diam sed blandit.",
-      imageUrl:"https://images.pexels.com/photos/1237119/pexels-photo-1237119.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      opis:"Zachód",
-      paragraphOne:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce interdum faucibus sollicitudin. Nam posuere erat leo. Quisque maximus, lacus at pretium tempus, nulla metus gravida sapien, a posuere felis diam at urna. Mauris malesuada in diam sed blandit. Aliquam ultrices urna purus, eget vehicula nulla aliquet in. Quisque quis blandit ex, et accumsan elit. In hac habitasse platea dictumst. Morbi non lorem sit amet dui accumsan convallis tristique in nibh. Aliquam erat volutpat. Duis vitae ultricies sapien. Fusce ac ipsum posuere, rutrum mauris in, imperdiet tellus. Praesent accumsan sapien ut sollicitudin faucibus. Phasellus condimentum congue enim eu pulvinar. Sed congue ex nulla, vel hendrerit lectus ultricies in. Aenean id feugiat leo. Donec elementum id dolor nec cursus. In quis ornare lorem. Vestibulum ultrices lectus ut nisi commodo lacinia.",
-      quote:"Phasellus dignissim sapien est, ullamcorper varius neque fringilla vel. Fusce eu augue condimentum, tempor eros vel, fringilla nunc. Morbi mollis sollicitudin pulvinar. Aliquam cursus velit ac eleifend interdum.",
-      paragraphTwo:"Nunc imperdiet nisi hendrerit convallis bibendum. Nam vitae ipsum a nibh ultrices bibendum. Aliquam tempor gravida libero, nec aliquam neque pretium ut. Fusce rutrum, nibh ut faucibus sagittis, nisi elit pellentesque erat, eu sagittis massa tellus at enim. In maximus fringilla ante, in tempor nisi ullamcorper ut. Ut non posuere ligula, vitae tempor lacus. Proin sit amet ullamcorper arcu, eu porttitor sapien. Maecenas convallis purus consequat quam pellentesque laoreet. Nunc rhoncus volutpat vestibulum. Donec vitae neque in tortor tempor consequat sed vitae justo. Nam varius nisi et odio tristique ultricies. Phasellus ac nisl eget ligula ornare venenatis. Donec efficitur orci a lectus cursus maximus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam dolor mauris, molestie id velit sed, ultricies tempus nunc.",
-      introParagraph:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis pharetra arcu. Mauris tellus mi, pretium posuere efficitur eu, congue ac mauris. Nulla facilisi. Nullam egestas massa ac vehicula porta. Duis condimentum metus semper, facilisis sem in, volutpat est.",
-      month:"CZERWIEC",
-      mainTopic:"ZACHÓD",
-      howWeLook:"howWeLook-06-22"
-    }
   ],
   howWeLook: [
     {
-      howWeLook:"howWeLook-06-22",
-      previous:"howWeLook-05-22",
-      next:"howWeLook-06-22", 
-      howWeLookTitle:"Mauris malesuada in diam sed blandit.",
+      howWeLook:"howWeLook-02-22",
+      previous:"howWeLook-02-22",
+      next:"howWeLook-02-22", 
+      howWeLookTitle:"Jak my patrzymy na MIŁOŚĆ?",
       meets: [
         {
-          data: "01.01.2022 r",
-          name: "Lorem ipsum dolor sit amet",
+          data: "04.02.2022 r",
+          name: "Obraz Boga i historia ludzkości w Starym Testamencie",
         },
         {
-          data: "05.01.2022 r",
-          name: "Aliquam placerat",
+          data: "11.02.2022 r",
+          name: "Po co nam przykazania kościelne?",
         },
         {
-          data: "08.01.2022 r",
-          name: "In libero eget sagittis",
+          data: "18.02.2022 r",
+          name: "Adoracja",
         },
         {
-          data: "11.01.2022 r",
-          name: "Consectetur adipiscing elit",
-        },
-        {
-          data: "15.01.2022 r",
-          name: "Nulla sodales vel nunc at pharetra",
-        },
-        {
-          data: "22.01.2022 r",
-          name: "Maecenas purus felis, sodales sed gravida id, congue eget urna.",
+          data: "25.02.2022 r",
+          name: "Dziecko Boże oraz więzi rodzinne",
         },
       ],      
-      imageCalendarUrl:"../images/calendar.jpg",
+      imageCalendarUrl:"calendar-02-22.jpg",
       opis:"Calendar",
-      subTitleOne:"Class aptent taciti sociosqu ad litora torquent",
-      imageSumUpOneUrl:"https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      sumUpOneFirst:"Nam tincidunt urna maximus nulla mattis hendrerit. Curabitur maximus luctus tellus a vestibulum. Sed semper lorem at mattis tristique. Etiam non eros justo. Pellentesque faucibus rhoncus ante id consequat. Donec semper, risus sit amet pellentesque porttitor, orci nunc tincidunt nisi, ut.",
-      sumUpOneSecond:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat in libero eget sagittis. Suspendisse at elit tellus. Nulla sodales vel nunc at pharetra.",
       
-      subTitleTwo:"Praesent molestie nisl porta libero",
-      imageSumUpTwoUrl:"https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      sumUpTwoFirst:"Mauris tincidunt felis sapien. Suspendisse sit amet mi non felis euismod dictum. Curabitur vitae posuere odio. Suspendisse volutpat et sapien quis aliquam. Pellentesque ac porttitor risus. Proin ut sapien eget dui vulputate commodo. Aliquam congue erat nec dui facilisis tempor. Integer ut ante turpis. Aliquam sed dui et tortor elementum vulputate et venenatis odio. Donec auctor venenatis placerat. Nam consequat justo commodo tincidunt egestas",
-      sumUpTwoSecond:"",
+      subTitleOne: "Obraz Boga i historia ludzkości w Starym Testamencie",
+      imageSumUpOneUrl:"howWeLook-02-22-3.jpg",
+      sumUpOneFirst:"Bóg mówi do człowieka nieustannie - co do tego nie ma wątpliwości. Jednak, jak do niego mówi? Tak, żeby człowiek zrozumiał. W zależności od stopnia rozwoju człowieka; od wydarzeń, które mają miejsce w jego życiu i od tego, czego potrzebuje. Musimy tylko nauczyć się słuchać",
+      sumUpOneSecond:"",
+      
+      subTitleTwo:"Po co nam przykazania kościelne?",
+      imageSumUpTwoUrl:"howWeLook-02-22-4.jpg",
+      sumUpTwoFirst:"Po co nam Pięć Przykazań Kościelnych? Są one uzupełnieniem Dekalogu oraz drogowskazami, które pomagają kształtować chrześcijańskie życie",
+      sumUpTwoSecond:"Przynajmniej raz w roku... - może wydawać się ograniczeniem, nawet przymusem. Warto zastanowić się jednak, jakby to wyglądało, gdyby w rodzinie raz na rok mówiło się kocham cię, przepraszam?",
 
-      subTitleThree:"Fermentum, sit amet condimentum nisl blandit",
-      imageSumUpThreeUrl:"https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      sumUpThreeFirst:"Nullam eget blandit ex. Pellentesque in dignissim sapien, vitae tincidunt lorem. Proin mauris ligula, rhoncus non aliquam sit amet, convallis eget lectus. Pellentesque nec ex ipsum. Duis sed feugiat libero. Sed iaculis enim arcu. Proin feugiat molestie mollis. Pellentesque ut scelerisque orci. Nunc euismod tincidunt scelerisque. Proin eu iaculis dui. Donec a luctus ipsum.",
-      sumUpThreeSecond:"Integer velit nisl, bibendum vitae nunc a, rutrum malesuada metus. Proin et nibh ultrices, elementum nibh eget, facilisis enim.",
+      subTitleThree:"Adoracja",
+      imageSumUpThreeUrl:"howWeLook-02-22-2.jpg",
+      sumUpThreeFirst:"Odkryj prawdę, która kryje się w 8 błogosławieństwach, a znajdziesz sposób na drogę do szczęścia, którą proponuje nam Jezus",
+      sumUpThreeSecond:"",
 
-      subTitleFour:"Fusce porta id mauris non rutrum",
-      imageSumUpFourUrl:"https://images.pexels.com/photos/1095550/pexels-photo-1095550.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      sumUpFourFirst:"Proin non pulvinar lacus. Morbi sagittis at urna vitae placerat. Mauris at erat vitae nulla fringilla ullamcorper. Sed eu consectetur mi. Cras vel auctor lacus. Nullam sed condimentum odio. Praesent rhoncus arcu vel est pretium, eu feugiat risus volutpat. Nullam tristique, nisl at porta malesuada, urna nunc pellentesque mauris, vitae posuere dolor tortor in est. Cras malesuada molestie arcu, ac vulputate mauris eleifend sed.",
-      sumUpFourSecond:"Proin luctus lacus a lacus finibus, consectetur ornare erat dapibus. Praesent viverra fringilla turpis tincidunt ultrices. Aenean mollis volutpat est, vitae mattis ante iaculis tristique. Fusce at risus dui. Nulla et dolor quis ligula porttitor cursus sit amet nec mi. Curabitur maximus orci eget felis finibus efficitur.",
+      subTitleFour:"Dziecko Boże oraz więzi rodzinne",
+      imageSumUpFourUrl:"howWeLook-02-22-1.jpg",
+      sumUpFourFirst:"Wszyscy jesteśmy Dziećmi Bożymi. Jak więc powinniśmy siebie kochać? Tak jak Chrystus nas kocha - z mocnymi stronami i zaletami, ale także z naszymi  słabościami, wadami, ograniczeniami. Dopiero wtedy ta miłość będzie prawdziwa, głęboka. To ona powinna stanowić też fundament naszych rodzin. Niech będzie ona wyrażana słowami ,,Proszę, przepraszam i dziękuję” , o których wspomina papież Franciszek w roku Rodziny",
+      sumUpFourSecond:"",
 
-      month:"CZERWIEC",
-      mainTopic:"ZACHÓD",
-      articleId:"article-06-22"
+      month:"LUTY",
+      mainTopic:"MIŁOSĆ",
+      articleId:"article-02-22-2"
     },
-    {
-      howWeLook:"howWeLook-05-22",
-      previous:"howWeLook-04-22",
-      next:"howWeLook-06-22", 
-      howWeLookTitle: "Mauris malesuada in diam sed blandit.",
-      meets: [
-        {
-          data: "01.01.2022 r",
-          name: "Lorem ipsum dolor sit amet",
-        },
-        {
-          data: "05.01.2022 r",
-          name: "Aliquam placerat",
-        },
-        {
-          data: "08.01.2022 r",
-          name: "In libero eget sagittis",
-        },
-        {
-          data: "11.01.2022 r",
-          name: "Consectetur adipiscing elit",
-        },
-        {
-          data: "15.01.2022 r",
-          name: "Nulla sodales vel nunc at pharetra",
-        },
-        {
-          data: "22.01.2022 r",
-          name: "Maecenas purus felis, sodales sed gravida id, congue eget urna.",
-        },
-      ],      
-      imageCalendarUrl:"../images/calendar.jpg",
-      opis:"Calendar",
-      subTitleOne:"Class aptent taciti sociosqu ad litora torquent",
-      imageSumUpOneUrl:"https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      sumUpOneFirst:"Nam tincidunt urna maximus nulla mattis hendrerit. Curabitur maximus luctus tellus a vestibulum. Sed semper lorem at mattis tristique. Etiam non eros justo. Pellentesque faucibus rhoncus ante id consequat. Donec semper, risus sit amet pellentesque porttitor, orci nunc tincidunt nisi, ut.",
-      sumUpOneSecond:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat in libero eget sagittis. Suspendisse at elit tellus. Nulla sodales vel nunc at pharetra.",
-      
-      subTitleTwo:"Praesent molestie nisl porta libero",
-      imageSumUpTwoUrl:"https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      sumUpTwoFirst:"Mauris tincidunt felis sapien. Suspendisse sit amet mi non felis euismod dictum. Curabitur vitae posuere odio. Suspendisse volutpat et sapien quis aliquam. Pellentesque ac porttitor risus. Proin ut sapien eget dui vulputate commodo. Aliquam congue erat nec dui facilisis tempor. Integer ut ante turpis. Aliquam sed dui et tortor elementum vulputate et venenatis odio. Donec auctor venenatis placerat. Nam consequat justo commodo tincidunt egestas",
-      sumUpTwoSecond:"",
-
-      subTitleThree:"Fermentum, sit amet condimentum nisl blandit",
-      imageSumUpThreeUrl:"https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      sumUpThreeFirst:"Nullam eget blandit ex. Pellentesque in dignissim sapien, vitae tincidunt lorem. Proin mauris ligula, rhoncus non aliquam sit amet, convallis eget lectus. Pellentesque nec ex ipsum. Duis sed feugiat libero. Sed iaculis enim arcu. Proin feugiat molestie mollis. Pellentesque ut scelerisque orci. Nunc euismod tincidunt scelerisque. Proin eu iaculis dui. Donec a luctus ipsum.",
-      sumUpThreeSecond:"Integer velit nisl, bibendum vitae nunc a, rutrum malesuada metus. Proin et nibh ultrices, elementum nibh eget, facilisis enim.",
-
-      subTitleFour:"Fusce porta id mauris non rutrum",
-      imageSumUpFourUrl:"https://images.pexels.com/photos/1095550/pexels-photo-1095550.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      sumUpFourFirst:"Proin non pulvinar lacus. Morbi sagittis at urna vitae placerat. Mauris at erat vitae nulla fringilla ullamcorper. Sed eu consectetur mi. Cras vel auctor lacus. Nullam sed condimentum odio. Praesent rhoncus arcu vel est pretium, eu feugiat risus volutpat. Nullam tristique, nisl at porta malesuada, urna nunc pellentesque mauris, vitae posuere dolor tortor in est. Cras malesuada molestie arcu, ac vulputate mauris eleifend sed.",
-      sumUpFourSecond:"Proin luctus lacus a lacus finibus, consectetur ornare erat dapibus. Praesent viverra fringilla turpis tincidunt ultrices. Aenean mollis volutpat est, vitae mattis ante iaculis tristique. Fusce at risus dui. Nulla et dolor quis ligula porttitor cursus sit amet nec mi. Curabitur maximus orci eget felis finibus efficitur.",
-
-      month:"CZERWIEC",
-      mainTopic:"ZACHÓD",
-      articleId:"article-05-22"
-    },
-    {
-      howWeLook:"howWeLook-04-22",
-      previous:"howWeLook-03-22",
-      next:"howWeLook-05-22", 
-      howWeLookTitle: "Mauris malesuada in diam sed blandit.",
-      meets: [
-        {
-          data: "01.01.2022 r",
-          name: "Lorem ipsum dolor sit amet",
-        },
-        {
-          data: "05.01.2022 r",
-          name: "Aliquam placerat",
-        },
-        {
-          data: "08.01.2022 r",
-          name: "In libero eget sagittis",
-        },
-        {
-          data: "11.01.2022 r",
-          name: "Consectetur adipiscing elit",
-        },
-        {
-          data: "15.01.2022 r",
-          name: "Nulla sodales vel nunc at pharetra",
-        },
-        {
-          data: "22.01.2022 r",
-          name: "Maecenas purus felis, sodales sed gravida id, congue eget urna.",
-        },
-      ],      
-      imageCalendarUrl:"../images/calendar.jpg",
-      opis:"Calendar",
-      subTitleOne:"Class aptent taciti sociosqu ad litora torquent",
-      imageSumUpOneUrl:"https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      sumUpOneFirst:"Nam tincidunt urna maximus nulla mattis hendrerit. Curabitur maximus luctus tellus a vestibulum. Sed semper lorem at mattis tristique. Etiam non eros justo. Pellentesque faucibus rhoncus ante id consequat. Donec semper, risus sit amet pellentesque porttitor, orci nunc tincidunt nisi, ut.",
-      sumUpOneSecond:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat in libero eget sagittis. Suspendisse at elit tellus. Nulla sodales vel nunc at pharetra.",
-      
-      subTitleTwo:"Praesent molestie nisl porta libero",
-      imageSumUpTwoUrl:"https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      sumUpTwoFirst:"Mauris tincidunt felis sapien. Suspendisse sit amet mi non felis euismod dictum. Curabitur vitae posuere odio. Suspendisse volutpat et sapien quis aliquam. Pellentesque ac porttitor risus. Proin ut sapien eget dui vulputate commodo. Aliquam congue erat nec dui facilisis tempor. Integer ut ante turpis. Aliquam sed dui et tortor elementum vulputate et venenatis odio. Donec auctor venenatis placerat. Nam consequat justo commodo tincidunt egestas",
-      sumUpTwoSecond:"",
-
-      subTitleThree:"Fermentum, sit amet condimentum nisl blandit",
-      imageSumUpThreeUrl:"https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      sumUpThreeFirst:"Nullam eget blandit ex. Pellentesque in dignissim sapien, vitae tincidunt lorem. Proin mauris ligula, rhoncus non aliquam sit amet, convallis eget lectus. Pellentesque nec ex ipsum. Duis sed feugiat libero. Sed iaculis enim arcu. Proin feugiat molestie mollis. Pellentesque ut scelerisque orci. Nunc euismod tincidunt scelerisque. Proin eu iaculis dui. Donec a luctus ipsum.",
-      sumUpThreeSecond:"Integer velit nisl, bibendum vitae nunc a, rutrum malesuada metus. Proin et nibh ultrices, elementum nibh eget, facilisis enim.",
-
-      subTitleFour:"Fusce porta id mauris non rutrum",
-      imageSumUpFourUrl:"https://images.pexels.com/photos/1095550/pexels-photo-1095550.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      sumUpFourFirst:"Proin non pulvinar lacus. Morbi sagittis at urna vitae placerat. Mauris at erat vitae nulla fringilla ullamcorper. Sed eu consectetur mi. Cras vel auctor lacus. Nullam sed condimentum odio. Praesent rhoncus arcu vel est pretium, eu feugiat risus volutpat. Nullam tristique, nisl at porta malesuada, urna nunc pellentesque mauris, vitae posuere dolor tortor in est. Cras malesuada molestie arcu, ac vulputate mauris eleifend sed.",
-      sumUpFourSecond:"Proin luctus lacus a lacus finibus, consectetur ornare erat dapibus. Praesent viverra fringilla turpis tincidunt ultrices. Aenean mollis volutpat est, vitae mattis ante iaculis tristique. Fusce at risus dui. Nulla et dolor quis ligula porttitor cursus sit amet nec mi. Curabitur maximus orci eget felis finibus efficitur.",
-
-      month:"CZERWIEC",
-      mainTopic:"WSCHÓD",
-      articleId:"article-04-22"
-    }
   ],
   about: {
     descriptionUs: "Jesteśmy grupą młodych ludzi, którzy nie chcą zmarnować swojej młodości. Nie chcemy tracić czasu na przyglądanie się temu co nieistotne, zbędne i obłudne. Patrząc na Jezusa i kierując się jego przykładem chcemy iść przez życie kochając i głosząc Ewangelię. Do tego chcemy też zachęcić was. Idźcie razem z nami i kierujcie swój wzrok w dobrą stronę.",

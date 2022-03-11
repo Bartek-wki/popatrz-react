@@ -8,7 +8,7 @@ const ArticleIntro = ({ imageUrl, opis, mainTopic, month, introParagraph, articl
          data-aos-anchor-placement="bottom-bottom" 
          className={styles.articleIntro} >
       <div className={styles.articleIntroImage}>
-        <img src={imageUrl} alt={opis} />
+        <img src={`${process.env.PUBLIC_URL}/images/article/${imageUrl}`} alt={opis} />
       </div>
       <div className={styles.articleIntroDescription}>
         <h4>POPATRZ NA { mainTopic }</h4>

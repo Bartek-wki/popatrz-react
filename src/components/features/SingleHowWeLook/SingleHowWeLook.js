@@ -36,14 +36,14 @@ const SingleHowWeLook = () => {
               )}
           </div>
           <div className={styles.imageCalendarWrapper}>
-            <img src={ `${process.env.PUBLIC_URL}/images/calendar-${howWeLook.howWeLook}.jpg` } alt={ howWeLook.opis } />
+            <img src={ `${process.env.PUBLIC_URL}/images/calendar/${howWeLook.imageCalendarUrl}` } alt={ howWeLook.opis } />
           </div>
         </div>
 
         <div className={styles.sumUpWrapper}>
           <h6>{howWeLook.subTitleOne}</h6>
           <div className={styles.imageSumUpWrapper}>
-            <img src={ howWeLook.imageSumUpOneUrl } alt="" />
+            <img src={ `${process.env.PUBLIC_URL}/images/howWeLook/${howWeLook.imageSumUpOneUrl}` } alt="" />
           </div>
           <div className={styles.textSumUpWrapper}>
             <p>{ howWeLook.sumUpOneFirst }</p>
@@ -54,7 +54,7 @@ const SingleHowWeLook = () => {
         <div className={styles.sumUpWrapper + ' ' + styles.right}>
           <h6>{howWeLook.subTitleTwo}</h6>
           <div className={styles.imageSumUpWrapper}>
-            <img src={ howWeLook.imageSumUpTwoUrl } alt="" />
+            <img src={ `${process.env.PUBLIC_URL}/images/howWeLook/${howWeLook.imageSumUpTwoUrl}` } alt="" />
           </div>
           <div className={styles.textSumUpWrapper}>
             <p>{ howWeLook.sumUpTwoFirst }</p>
@@ -65,7 +65,7 @@ const SingleHowWeLook = () => {
         <div className={styles.sumUpWrapper}>
           <h6>{howWeLook.subTitleThree}</h6>
           <div className={styles.imageSumUpWrapper}>
-            <img src={ howWeLook.imageSumUpThreeUrl } alt="" />
+            <img src={ `${process.env.PUBLIC_URL}/images/howWeLook/${howWeLook.imageSumUpThreeUrl}` } alt="" />
           </div>
           <div className={styles.textSumUpWrapper}>
             <p>{ howWeLook.sumUpThreeFirst }</p>
@@ -76,13 +76,14 @@ const SingleHowWeLook = () => {
         <div className={styles.sumUpWrapper + ' ' + styles.right}>
           <h6>{howWeLook.subTitleFour}</h6>
           <div className={styles.imageSumUpWrapper}>
-            <img src={ howWeLook.imageSumUpFourUrl } alt="" />
+            <img src={ `${process.env.PUBLIC_URL}/images/howWeLook/${howWeLook.imageSumUpFourUrl}` } alt="" />
           </div>
           <div className={styles.textSumUpWrapper}>
             <p>{ howWeLook.sumUpFourFirst }</p>
             <p>{ howWeLook.sumUpFourSecond }</p>
           </div>
         </div>
+
         <LinkWrapper month={howWeLook.month} option={'POPATRZ NA...'} mainTopic={howWeLook.mainTopic} linkTo={"/article/"} linkId={howWeLook.articleId} />
         <div className={styles.socialMedia}>
           <FacebookShareButton

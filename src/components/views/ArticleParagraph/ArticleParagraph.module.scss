@@ -1,0 +1,55 @@
+@import "../../../styles/settings.scss";
+
+.paragraph {
+  margin-bottom: 20px;
+}
+
+.text {
+  text-align: justify;
+  line-height: 1.5;
+  text-indent: 25px;
+}
+
+.quote {
+  font-family: $font-quote;
+  font-size: 18px;
+  text-align: center;
+  max-width: 90%;
+  margin: auto;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .textWrapper .quote {
+    font-size: 18px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .textWrapper .quote {
+    font-size: 16px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 411px) and (max-width: 767px) {
+   .textWrapper .text {
+    text-align: start;
+  }
+
+  .textWrapper .quote {
+    font-size: 14px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 410px) {
+  .textWrapper .text {
+    text-align: start;
+  }
+
+  .textWrapper .quote {
+    font-size: 14px;
+    margin: 0;
+  }
+}

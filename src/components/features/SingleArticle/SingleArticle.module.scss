@@ -43,18 +43,8 @@
   max-width: 700px;
 }
 
-.textWrapper .text {
-  text-align: justify;
-  line-height: 1.5;
-  text-indent: 25px;
-}
-
-.textWrapper .quote {
-  font-family: $font-header-two;
-  font-size: 22px;
-  text-align: center;
-  background-color: #eeeeee42;
-  padding: 15px;
+.author {
+  text-align: end;
 }
 
 .socialMedia {

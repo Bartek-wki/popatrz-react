@@ -8,6 +8,7 @@ import LinkWrapper from "../../views/LinkWrapper/LinkWrapper";
 import ArticleNav from "../../views/ArticleNav/ArticleNav";
 import { useEffect } from "react";
 import {FacebookShareButton, TwitterShareButton, FacebookIcon, TwitterIcon} from 'react-share'
+import ArticleParagraph from "../../views/ArticleParagraph/ArticleParagraph";
 
 const SingleArticle = () => {
   const { id } = useParams();
@@ -28,12 +29,13 @@ const SingleArticle = () => {
         <ArticleNav linkTo={"/article/"} next={article.next} previous={article.previous} />
         <h3 className={styles.articleHeader}>{ article.articleTitle }</h3>
         <div className={styles.imageWrapper}>
-          <img src={article.imageUrl} alt={article.opis} />
+          <img src={`${process.env.PUBLIC_URL}/images/article/${article.imageUrl}`} alt={article.opis} />
         </div>
         <div className={styles.textWrapper}>
-          <p className={styles.text}>{ article.paragraphOne }</p>
-          <p className={styles.quote}>{ article.quote }</p>
-          <p className={styles.text}>{ article.paragraphTwo }</p>
+          {article.paragraphs.map(paragraph => 
+            <ArticleParagraph key={paragraph.subtitle} subtitle={paragraph.subtitle} text={paragraph.text} quote={paragraph.quote} />
+          )}
+          <p className={styles.author}>{article.author}</p>
         </div>
         <LinkWrapper month={article.month} option={'JAK MY PATRZYMY NA...'} mainTopic={article.mainTopic} linkTo={"/howWeLook/"} linkId={article.howWeLook} />
         <div className={styles.socialMedia}>
