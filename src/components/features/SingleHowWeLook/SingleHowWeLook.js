@@ -16,7 +16,7 @@ const SingleHowWeLook = () => {
   const howWeLook = useSelector(state => getHowWeLookById(state, id));
   const allHowWeLook = useSelector(state => getAllHowWeLook(state));
   const reverseAllHowWeLook = [...allHowWeLook].reverse();
-  const shareUrl = ''
+  const shareUrl = 'https://popatrz.herokuapp.com/howWeLook/' + howWeLook.howWeLook
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -40,7 +40,7 @@ const SingleHowWeLook = () => {
           </div>
         </div>
 
-        <div className={styles.sumUpWrapper}>
+        <div className={styles.sumUpWrapper + ' ' + styles.left}>
           <h6>{howWeLook.subTitleOne}</h6>
           <div className={styles.imageSumUpWrapper}>
             <img src={ `${process.env.PUBLIC_URL}/images/howWeLook/${howWeLook.imageSumUpOneUrl}` } alt="" />
@@ -62,7 +62,7 @@ const SingleHowWeLook = () => {
           </div>
         </div>
 
-        <div className={styles.sumUpWrapper}>
+        <div className={styles.sumUpWrapper + ' ' + styles.left}>
           <h6>{howWeLook.subTitleThree}</h6>
           <div className={styles.imageSumUpWrapper}>
             <img src={ `${process.env.PUBLIC_URL}/images/howWeLook/${howWeLook.imageSumUpThreeUrl}` } alt="" />

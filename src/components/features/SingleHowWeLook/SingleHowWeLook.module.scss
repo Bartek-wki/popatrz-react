@@ -88,6 +88,10 @@
   flex-direction: row-reverse;
 }
 
+.left h6 {
+  text-align: end;
+}
+
 .imageSumUpWrapper {
   max-width: 600px;
   height: 250px;
@@ -187,7 +191,7 @@ h6 {
   .socialMedia {
     bottom: -10px;
   }
-  
+
   .calendarWrapper {
     width: 90%;
     font-size: 14px;
@@ -214,6 +218,10 @@ h6 {
     flex: 0 0 90%;
     text-align: start;
     margin: 30px 10px 0 0;
+  }
+
+  .left h6 {
+  text-align: start;
   }
 }
 
@@ -262,5 +270,9 @@ h6 {
     flex: 0 0 90%;
     text-align: start;
     margin: 30px 10px 0 0;
+  }
+
+  .left h6 {
+    text-align: start;
   }
 }

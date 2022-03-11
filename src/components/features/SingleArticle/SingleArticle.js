@@ -15,7 +15,7 @@ const SingleArticle = () => {
   const article = useSelector(state => getArticleById(state, id));
   const articles = useSelector(state => getAllArticles(state));
   const reverseArticles = [...articles].reverse();
-  const shareUrl = ''
+  const shareUrl = 'https://popatrz.herokuapp.com/article/' + article.articleId
   
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -33,7 +33,7 @@ const SingleArticle = () => {
         </div>
         <div className={styles.textWrapper}>
           {article.paragraphs.map(paragraph => 
-            <ArticleParagraph key={paragraph.subtitle} subtitle={paragraph.subtitle} text={paragraph.text} quote={paragraph.quote} />
+            <ArticleParagraph key={paragraph.id} subtitle={paragraph.subtitle} text={paragraph.text} quote={paragraph.quote} />
           )}
           <p className={styles.author}>{article.author}</p>
         </div>

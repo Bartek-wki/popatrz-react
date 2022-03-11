@@ -9,31 +9,37 @@ const initialState = {
       opis: "Na co?",
       paragraphs: [
         {
+          id: '1',
           subtitle: "",
           text: "Mówi się, że oczy są zwierciadłem duszy. To na co patrzymy i w jaki sposób to robimy, ma wpływ na to kim jesteśmy. Dostrzegając piękno i dobro w otoczeniu, człowiek napełnia się nimi. Rodzi się w nim spokój, a jego serce staje się coraz bardziej otwarte dla innych. Idzie przez życie pełen wzniosłych myśli i pragnień. Czy jednak na co dzień zwracamy uwagę, na co kierujemy nasz wzrok?",
           quote: "",
         },
         {
+          id: '2',
           subtitle: "",
           text: "Środki masowego przekazu nieustannie starają się wywrzeć na nas wpływ, odwracając uwagę od tego co wartościowe. Stawiają na pierwszym miejscu człowieka, jego powierzchowne pragnienia i słabości, a spychają na dalszy plan to, co naprawdę ma znaczenie, co skłania do refleksji i jest wymagające.",
           quote: "",
         },
         {
+          id: '3',
           subtitle: "",
           text: "Od człowieka zależy, czy bezmyślnie podąży za tłumem, czy zatrzyma się i zastanowi nad tym co w życiu istotne.",
           quote: "",
         },
         {
+          id: '4',
           subtitle: "",
           text: "Bądźmy świadomi tego na co patrzymy. Kierujmy nasze spojrzenie zawsze wyżej. Ponad to, co zniekształca obraz rzeczywistości i ponad to, co chce uśmiercić w nas pragnienia pięknego życia. Kierujmy nasze oczy na samego Boga. To on jest Pierwszym i Ostatnim, Początkiem i Końcem. On jest z nami w naszej codzienności, chce udzielić nam ogromu łask, napełnić nas nimi i rozpalić w każdym człowieku niegasnące światło wiary, nadziei i miłości.",
           quote: "",
         },
         {
+          id: '5',
           subtitle: "",
           text: "Kierujmy wzrok na to, co wartościowe, nie marnujmy czasu na to, co nieistotne i dostrzegajmy dzieła Boże dookoła siebie. Niech w naszych oczach odbija się Jego światło.",
           quote: "",
         },
         {
+          id: '6',
           subtitle: "Popatrz, zainspiruj się i bądź gotów!",
           text: "",
           quote: "",
@@ -54,31 +60,37 @@ const initialState = {
       opis: "MIŁOŚĆ",
       paragraphs: [
         {
+          id: '1',
           subtitle: "",
           text: "Miłość to jedno z największych słów świata. Przywołuje najpiękniejsze myśli i wspomnienia. Któż nie chciałby kochać i być kochanym? Czym jednak jest miłość? Czy na pewno dobrze rozumiemy znaczenie tego słowa? Miłość to jedno z najczęściej nadużywanych słów. Tak młodsi, jak i starsi często mylą miłość z jej karykaturami, co niejednokrotnie miewa opłakane, wręcz tragiczne skutki. Czym więc miłość jest, a czym zdecydowanie nie jest? Spróbujmy przyjrzeć się najpopularniejszym mitom:",
           quote: "",
         },
         {
+          id: '2',
           subtitle: "Mit pierwszy: Miłość to uczucie.",
           text: "Czym jest miłość? Ilu z nas powiedziałoby, że to uczucie, jakim darzę drugą połówkę. Czy aby na pewno? Ten zestaw uczuć, który sprawia, że „tracimy głowę”, a w brzuchu wciąż czujemy motylki to zakochanie. Ono sprawia, że potrafimy zapomnieć o Bożym świecie, a tego jedynego/tą jedyną widzimy w najpiękniejszych barwach. Stan niezwykle istotny, bo pomaga nam rozpocząć budowanie związku, ale bardzo niebezpieczny, gdy pomylimy go z miłością. Otóż miłości uczucia towarzyszą, ale ona sama zdecydowanie nimi nie jest! Kochać to przeżywać cały wachlarz emocji od tych najbardziej bolesnych do najpiękniejszych. Kochać należy bez względu na uczucia, bo są one zbyt chwiejne i niestałe.",
           quote: "",
         },
         {
+          id: '3',
           subtitle: "Mit drugi: Miłość to akceptacja.",
           text: "Akceptacja to dziś bardzo popularne słowo. „Kocham cię takim, jakim jesteś”, „kocham cię i nie musisz się zmieniać”. Tymczasem miłość powinna wymagać. Jeśli kogoś kochamy, to chcemy jego dobra, a więc jego rozwoju i doskonalenia się. Nie mogę patrzeć obojętnie, gdy ten, którego kocham, zatraca się w grzechu czy niszczy siebie przez własne błędy. Naprawdę kochać to towarzyszyć i pomagać w pokonywaniu własnych słabości, to motywować do podjęcia działań, by stawać się coraz to lepszą wersją siebie.",
           quote: "",
         },
         {
+          id: '4',
           subtitle: "Mit trzeci: Miłość to pożądanie",
           text: "Dzisiejszy świat chce nam wmówić, że istotą miłości jest pożądanie. Takie stwierdzenie to kłamstwo! Każde pożądanie jest skierowane na zaspokajanie własnych zachcianek. To droga egoizmu. Dokładne zaprzeczenie miłości. Miłość to dar z siebie, nieustanne obdarowywanie drugiego tym, co najlepsze, zapominając o sobie. Nawet akt małżeński będzie dopiero wtedy czysty i wyrażający prawdziwą miłość, gdy będzie wynikać z pragnienia ofiarowania siebie współmałżonkowi.",
           quote: "",
         },
         {
+          id: '5',
           subtitle: "Czym więc jest miłość?",
           text: "Miłość jest postawą, poprzedzoną świadomą decyzją, że będę kochał. Miłość nie może się skończyć ani wypalić, bo to my decydujemy o tym, że chcemy dalej kochać. Miłość jest obecnością i ofiarnością. Jeśli kocham, to jestem obok i wspieram drugiego, często wyrzekając się własnych pragnień. Miłość to najpiękniejsza postawa wobec drugiej osoby. To odnoszenie się do siebie z szacunkiem i życzliwością. Dbanie o to, co najpiękniejsze w drugim człowieku i pragnienie, by stawał się on coraz lepszym i bardziej kochającym.",
           quote: "",
         },
         {
+          id: '6',
           subtitle: "",
           text: "",
           quote: "Miłujcie czystym sercem jedni drugich gorąco. 1 P 1, 22",
