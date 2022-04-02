@@ -54,7 +54,7 @@ const initialState = {
     {
       articleId:"article-02-22-2",
       previous:"article-02-22-1",
-      next:"article-02-22-2",
+      next:"article-03-22",
       articleTitle:"Popatrz na… MIŁOŚĆ",
       imageUrl:"popatrz-02-22-2.jpg",
       opis: "MIŁOŚĆ",
@@ -102,12 +102,58 @@ const initialState = {
       mainTopic:"MIŁOŚĆ",
       howWeLook:"howWeLook-02-22"
     },
+    {
+      articleId:"article-03-22",
+      previous:"article-02-22-2",
+      next:"article-03-22",
+      articleTitle:"Popatrz na… GRZECH",
+      imageUrl:"popatrz-03-22.jpg",
+      opis: "GRZECH",
+      paragraphs: [
+        {
+          id: '1',
+          subtitle: "Hamartia",
+          text: "Grzech można zdefiniować jako wykroczenie przeciw prawdzie, rozumowi oraz prawemu sumieniu. Jest to jedno z jego licznych określeń. Zapewne potrafilibyście przytoczyć wiele innych, z którymi się spotkaliście, jednak tym razem chciałbym wam przedstawić tę kwestię w nieco inny sposób. W tym celu wesprę się greckim słowem określającym grzech - harmatia, czyli dosłownie tłumacząc, nie trafiać do celu. Czyż nie jest to genialne wytłumaczenie tego słowa? Zastanówmy się co jest naszym najważniejszym życiowym celem. Odpowiedź to oczywiście życie wieczne, a grzech jest tym co uniemożliwia nam osiągnięcie go, czyli grzesząc błądzimy, a co za tym idzie nie trafiamy do celu.",
+          quote: "",
+        },
+        {
+          id: '2',
+          subtitle: "",
+          text: " Pojawia się pytanie: Jak unikać grzechów? W tym celu przydadzą nam się...",
+          quote: "",
+        },
+        {
+          id: '3',
+          subtitle: "Sprawne hamulce",
+          text: "Pod tym hasłem kryje się rzecz jasna nasze sumienie. Jest to niezwykły dar objawiający się jako wewnętrzny głos pomagający nam rozeznać, czy nasze czyny są słuszne i dobre, czy może grzeszne. Jednak by dobrze nam służyło, musimy go nie tylko słuchać, ale też dbać o jego rozwój. Żyjemy w świecie, gdzie występuje zło i nieprawość, więc warunkiem koniecznym dla właściwego funkcjonowania naszego sumienia jest poznawanie poznanie Chrystusa, wsłuchiwanie się w jego Słowa oraz stosowanie ich w naszym życiu. Właściwie uformowane sumienie będzie nie tylko świetnym życiowym kompasem, ale też zapewni nam pokój ducha i uchroni nas przed fałszywym poczuciem winy.",
+          quote: "",
+        },
+        {
+          id: '4',
+          subtitle: "Nawracajcie się i wierzcie w Ewangelie",
+          text: "Jednak jesteśmy tylko ludźmi, niezależnie od siły wytrenowanego sumienia czy najszczerszych chęci czasami zdarzy nam się upaść i zgrzeszyć. Nie powiem, że to nic złego, bo grzech sam w sobie jest złem, ale zaznaczę, jak ważna w tej sytuacji jest szczerość wobec samego siebie, ponieważ świadomość popełnionych grzechów jest niezbędna w sakramencie pokuty i pojednania, bo przecież jak moglibyśmy wyznać swoje grzechy i żałować za nie, jeśli udawalibyśmy, że wszystko jest w porządku. Spowiedź święta to wielki dar i dowód Miłosierdzia Bożego, to nieustanne wyznanie miłości Boga do nas i to miłości doskonałej, która nie maleje nawet, gdy grzeszymy. Pan czeka na nas, niczym Ojciec na swego marnotrawnego syna, nie z karą, ale ogromem łask, którymi chce nas znów obdarzyć.",
+          quote: "",
+        },
+        {
+          id: '5',
+          subtitle: "",
+          text: "Każdy moment na nawrócenie się jest dobry, ale warto pomyśleć o tym szczególnie teraz, podczas Wielkiego Postu. Niektórzy sądzą, że życie z Bogiem to szereg zakazów i obowiązków, ale ci którzy rozumieją wiarę, wiedzą, że jest to źródło sił, spokoju i miłości, dlatego rozpocznijmy walkę z grzechem lub nie ustawajmy w niej, bo mówiąc kolokwialnie, gra zdecydowanie jest warta świeczki.",
+          quote: "",
+        },
+      ],
+      author: "Damian Róg",
+      introParagraph: "Greckie określenie słowa grzech - harmatia, znaczy dosłownie nie trafiać do celu.  Czyż nie jest to genialne wytłumaczenie tego słowa? Zastanówmy się co jest naszym najważniejszym życiowym celem. Odpowiedź to oczywiście życie wieczne, a grzech jest tym co uniemożliwia nam osiągnięcie go, czyli grzesząc błądzimy, a co za tym idzie nie trafiamy do celu.",
+      month:"MARZEC",
+      mainTopic:"GRZECH",
+      howWeLook:"howWeLook-03-22"
+    },
+
   ],
   howWeLook: [
     {
       howWeLook:"howWeLook-02-22",
       previous:"howWeLook-02-22",
-      next:"howWeLook-02-22", 
+      next:"howWeLook-03-22", 
       howWeLookTitle:"Jak my patrzymy na MIŁOŚĆ?",
       meets: [
         {
@@ -132,27 +178,77 @@ const initialState = {
       
       subTitleOne: "Obraz Boga i historia ludzkości w Starym Testamencie",
       imageSumUpOneUrl:"howWeLook-02-22-3.jpg",
-      sumUpOneFirst:"Bóg mówi do człowieka nieustannie - co do tego nie ma wątpliwości. Jednak, jak do niego mówi? Tak, żeby człowiek zrozumiał. W zależności od stopnia rozwoju człowieka; od wydarzeń, które mają miejsce w jego życiu i od tego, czego potrzebuje. Musimy tylko nauczyć się słuchać",
+      sumUpOneFirst:"Bóg mówi do człowieka nieustannie - co do tego nie ma wątpliwości. Jednak, jak do niego mówi? Tak, żeby człowiek zrozumiał. W zależności od stopnia rozwoju człowieka; od wydarzeń, które mają miejsce w jego życiu i od tego, czego potrzebuje. Musimy tylko nauczyć się słuchać.",
       sumUpOneSecond:"",
       
       subTitleTwo:"Po co nam przykazania kościelne?",
       imageSumUpTwoUrl:"howWeLook-02-22-4.jpg",
-      sumUpTwoFirst:"Po co nam Pięć Przykazań Kościelnych? Są one uzupełnieniem Dekalogu oraz drogowskazami, które pomagają kształtować chrześcijańskie życie",
+      sumUpTwoFirst:"Po co nam Pięć Przykazań Kościelnych? Są one uzupełnieniem Dekalogu oraz drogowskazami, które pomagają kształtować chrześcijańskie życie.",
       sumUpTwoSecond:"Przynajmniej raz w roku... - może wydawać się ograniczeniem, nawet przymusem. Warto zastanowić się jednak, jakby to wyglądało, gdyby w rodzinie raz na rok mówiło się kocham cię, przepraszam?",
 
       subTitleThree:"Adoracja",
       imageSumUpThreeUrl:"howWeLook-02-22-2.jpg",
-      sumUpThreeFirst:"Odkryj prawdę, która kryje się w 8 błogosławieństwach, a znajdziesz sposób na drogę do szczęścia, którą proponuje nam Jezus",
+      sumUpThreeFirst:"Odkryj prawdę, która kryje się w 8 błogosławieństwach, a znajdziesz sposób na drogę do szczęścia, którą proponuje nam Jezus.",
       sumUpThreeSecond:"",
 
       subTitleFour:"Dziecko Boże oraz więzi rodzinne",
       imageSumUpFourUrl:"howWeLook-02-22-1.jpg",
-      sumUpFourFirst:"Wszyscy jesteśmy Dziećmi Bożymi. Jak więc powinniśmy siebie kochać? Tak jak Chrystus nas kocha - z mocnymi stronami i zaletami, ale także z naszymi  słabościami, wadami, ograniczeniami. Dopiero wtedy ta miłość będzie prawdziwa, głęboka. To ona powinna stanowić też fundament naszych rodzin. Niech będzie ona wyrażana słowami ,,Proszę, przepraszam i dziękuję” , o których wspomina papież Franciszek w roku Rodziny",
+      sumUpFourFirst:"Wszyscy jesteśmy Dziećmi Bożymi. Jak więc powinniśmy siebie kochać? Tak jak Chrystus nas kocha - z mocnymi stronami i zaletami, ale także z naszymi  słabościami, wadami, ograniczeniami. Dopiero wtedy ta miłość będzie prawdziwa, głęboka. To ona powinna stanowić też fundament naszych rodzin. Niech będzie ona wyrażana słowami ,,Proszę, przepraszam i dziękuję” , o których wspomina papież Franciszek w roku Rodziny.",
       sumUpFourSecond:"",
 
       month:"LUTY",
       mainTopic:"MIŁOSĆ",
       articleId:"article-02-22-2"
+    },
+    {
+      howWeLook:"howWeLook-03-22",
+      previous:"howWeLook-02-22",
+      next:"howWeLook-03-22", 
+      howWeLookTitle:"Na co my patrzyliśmy w Marcu",
+      meets: [
+        {
+          data: "04.03.2022 r",
+          name: "Trudności na modlitwie",
+        },
+        {
+          data: "11.03.2022 r",
+          name: "Przemienienie na górze Tabor",
+        },
+        {
+          data: "18.03.2022 r",
+          name: "Potęga Maryi",
+        },
+        {
+          data: "25.03.2022 r",
+          name: "Droga krzyżowa",
+        },
+      ],      
+      imageCalendarUrl:"calendar-03-22.jpg",
+      opis:"Calendar",
+      
+      subTitleOne: "Trudności na modlitwie",
+      imageSumUpOneUrl:"howWeLook-03-22-1.jpg",
+      sumUpOneFirst:"Ludzie przechowują w domu wiele lekarstw na różne dolegliwości. W Wielkim Poście warto zadbać również o uzupełnienie apteczki pierwszej pomocy duchowej, która pomoże nam w razie problemów i trudności w modlitwie.",
+      sumUpOneSecond:"",
+      
+      subTitleTwo:"Przemienienie na górze Tabor",
+      imageSumUpTwoUrl:"howWeLook-03-22-2.jpg",
+      sumUpTwoFirst:"Dlaczego to akurat Piotra, Jakuba i Jana Jezus wziął ze sobą na górę? Co oznaczało ukazanie się Eliasza i Mojżesza? Jaka nauka płynie dla nas z tego wydarzenia? Tak wiele pytań i… na każde znaleźliśmy odpowiedź!",
+      sumUpTwoSecond:"",
+
+      subTitleThree:"Potęga Maryi",
+      imageSumUpThreeUrl:"howWeLook-03-22-3.jpg",
+      sumUpThreeFirst:"Może się nam wydawać, że jesteśmy bezsilni wobec tej wielkiej nawałnicy zła, przemocy i grzechu. Wojna na Ukrainie, prześladowania Kościoła, odrzucenie Chrystusa przez zachodnie społeczeństwa, narzucanie ideologi Gender i LGBT. Jednak Maryja nie jest bezsilna. Maryja potrafi, co czyniła już wielokrotnie, zmienić losy świata. Udaremnić zamysły naszych nieprzyjaciół.",
+      sumUpThreeSecond:"Maryja zaprasza nas do udziału w tym zwycięstwie. W Fatimie powiedziała tak: 'Nie ma takiej sprawy osobistej, ani międzynarodowej, której nie dałoby się rozwiązać przez różaniec'.",
+
+      subTitleFour:"Droga krzyżowa",
+      imageSumUpFourUrl:"howWeLook-03-22-4.jpg",
+      sumUpFourFirst:"Krzyżowa Droga wydarzyła się naprawdę. Wtedy, 2000 lat temu i teraz kiedy idziemy nią razem. Tak jak twoje życie dzieje się naprawdę, jest jedyne i niepowtarzalne. Zapytaj siebie: co z nim zrobisz i jaką pójdziesz drogą. Niech krzyż stanie się dla ciebie drogowskazem i pomoże w dotarciu do Prawdy.",
+      sumUpFourSecond:"",
+
+      month:"MARZEC",
+      mainTopic:"GRZECH",
+      articleId:"article-03-22"
     },
   ],
   about: {
