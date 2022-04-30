@@ -105,7 +105,7 @@ const initialState = {
     {
       articleId:"article-03-22",
       previous:"article-02-22-2",
-      next:"article-03-22",
+      next:"article-04-22",
       articleTitle:"Popatrz na… GRZECH",
       imageUrl:"popatrz-03-22.jpg",
       opis: "GRZECH",
@@ -147,7 +147,51 @@ const initialState = {
       mainTopic:"GRZECH",
       howWeLook:"howWeLook-03-22"
     },
-
+    {
+      articleId:"article-04-22",
+      previous:"article-03-22-2",
+      next:"article-04-22",
+      articleTitle:"Popatrz na… KRZYŻ",
+      imageUrl:"popatrz-04-22.jpg",
+      opis: "KRZYŻ",
+      paragraphs: [
+        {
+          id: '1',
+          subtitle: "Zbawienie – co to takiego?",
+          text: "Niedawno przeżywaliśmy okres Świąt Wielkanocnych. Fakt, że Jezus umarł za nas i nasze grzechy na krzyżu, a następnie zmartwychwstał, aby nas zbawić i przywrócić nam możliwość życia wiecznego, jest nam bardzo dobrze znany. Zostaliśmy uwolnieni od zapłaty za grzech, jaką jest śmierć. Jest to ogromnym darem i łaską, ale można odnieść wrażenie, że czasem to do nas nie dociera i wydaje się być czymś całkowicie odległym. Co święta ta prawda wraca do nas jak bumerang, ale gdy tylko mija okres Wielkanocy szybko o tym zapominamy, wracając do swoich spraw. Temat zbawienia odchodzi na drugi plan.",
+          quote: "",
+        },
+        {
+          id: '2',
+          subtitle: "A gdyby tak spojrzeć na zbawienie w sposób bardziej namacalny?",
+          text: "Według definicji słownikowej zbawienie to „uwolnienie z niekorzystnego stanu lub okoliczności”, a więc podążając za definicją - Jezus nas uwalnia, ale od czego? - od braku sensu w życiu, - od złej relacji, - od uzależnienia, - od załamania,  można by długo wymieniać, ale już w tym momencie dostrzegamy, że są to rzeczy towarzyszące nam w życiu, a więc możemy powiedzieć, że zbawienie odbywa się codziennie, nie tylko od święta.",
+          quote: "",
+        },
+        {
+          id: '3',
+          subtitle: "Po co tak naprawdę żyje człowiek?",
+          text: "Chrześcijanin żyje po to, aby poznać i pokochać Boga, bo ostatecznie liczy się tylko Jego miłość i tylko tego potrzebujemy w życiu. Każdy człowiek pragnie miłości - chce być kochany i chce kochać. Jednak jesteśmy tylko ludźmi i często próbując „kochać” ranimy siebie nawzajem. Stąd tak dużo ran – rana odrzucenia, rana nieakceptacji, rana „nie jestem wystarczająco dobry”. A może właśnie należałoby zacząć od miłości do Boga, przecież to On potrafi kochać miłością idealną i mógłby nas wiele nauczyć. Jak mówi znany werset:",
+          quote: "Nie ma większej miłości od tej, gdy ktoś życie swoje oddaje za przyjaciół swoich. J 15, 13",
+        },
+        {
+          id: '4',
+          subtitle: "",
+          text: "Bezinteresowna miłość to pojęcie, które obecnie jest nam coraz bardziej obce. Nie jesteśmy przyzwyczajeni do takiej miłości, raczej oczekujemy, że ktoś pokocha nas „za coś” – za wygląd, za osiągnięcia, za charakter, za sposób bycia itd. Ciężko nam sobie wyobrazić, że można kochać za nic, a Bóg właśnie tak kocha.",
+          quote: "",
+        },
+        {
+          id: '5',
+          subtitle: "",
+          text: "W całej męce Pana Jezusa chodzi tylko i wyłącznie o MIŁOŚĆ! W oczach świata liczy się siła, zdrowie, władza, bogactwo, a ukrzyżowanie to upadek i hańba. I to właśnie tu kryje się cała tajemnica zbawienia – ogromnej i czystej miłości, która ma tak wielką moc, że zbawia nas wszystkich każdego dnia nie zwracając uwagi na to jak słabi i grzeszni jesteśmy.Zacznijmy od przyjęcia Jego miłości.",
+          quote: "",
+        },
+      ],
+      author: "Honorata Nowak",
+      introParagraph: "Bezinteresowna miłość to pojęcie, które obecnie jest nam coraz bardziej obce. Nie jesteśmy przyzwyczajeni do takiej miłości, raczej oczekujemy, że ktoś pokocha nas „za coś” – za wygląd, za osiągnięcia, za charakter, za sposób bycia itd. Ciężko nam sobie wyobrazić, że można kochać za nic, a Bóg właśnie tak kocha.",
+      month:"KWIECIEŃ",
+      mainTopic:"KRZYŻ",
+      howWeLook:"howWeLook-04-22"
+    },
   ],
   howWeLook: [
     {
@@ -203,7 +247,7 @@ const initialState = {
     {
       howWeLook:"howWeLook-03-22",
       previous:"howWeLook-02-22",
-      next:"howWeLook-03-22", 
+      next:"howWeLook-04-22", 
       howWeLookTitle:"Na co my patrzyliśmy w Marcu",
       meets: [
         {
@@ -249,6 +293,65 @@ const initialState = {
       month:"MARZEC",
       mainTopic:"GRZECH",
       articleId:"article-03-22"
+    },
+    {
+      howWeLook:"howWeLook-04-22",
+      previous:"howWeLook-03-22",
+      next:"howWeLook-04-22", 
+      howWeLookTitle:"Na co my patrzyliśmy w Kwietniu",
+      meets: [
+        {
+          data: "08.04.2022 r",
+          name: "Droga krzyżowa",
+        },
+        {
+          data: "14.04.2022 r",
+          name: "Czuwanie przy ciemnicy",
+        },
+        {
+          data: "14-16.04.2022 r",
+          name: "TRIDUUM PASCHALNE",
+        },
+        {
+          data: "22.04.2022 r",
+          name: "Miłosierdzie Boże",
+        },
+        {
+          data: "30.04.2022 r",
+          name: "Modlitwa KSM-owicza",
+        },        
+      ],      
+      imageCalendarUrl:"calendar-04-22.jpg",
+      opis:"Calendar",
+      
+      subTitleOne: "Droga krzyżowa",
+      imageSumUpOneUrl:"howWeLook-04-22-1.jpg",
+      sumUpOneFirst:"Emocje towarzyszą nam każdego dnia. Cieszymy się, potem smucimy, czasem rozpala się w nas nadzieja, która potem niejednokrotnie gaśnie zasłonięta strachem. Te same emocje towarzyszyły Jezusowi, na Jego ostatniej drodze.",
+      sumUpOneSecond:"",
+      
+      subTitleTwo:"Czuwanie przy ciemnicy",
+      imageSumUpTwoUrl:"howWeLook-04-22-2.jpg",
+      sumUpTwoFirst:",,Widzę, Jezu, że jesteś bardzo smutny, bardzo poważny. Apostołowie patrzą niepewnie na Ciebie. Trzech z nich zabierasz dalej. My idziemy z Tobą. Jaka cisza tu panuje. Czasem odezwie się jakiś owad, czasem przebudzony ptak wyda odgłos, ale poza tym cisza. Księżyc świeci na niebie, zdaje się być jedynym świadkiem tego, co ma się wydarzyć…”",
+      sumUpTwoSecond:"",
+
+      subTitleThree:"TRIDUUM PASCHALNE",
+      imageSumUpThreeUrl:"howWeLook-04-22-3.jpg",
+      sumUpThreeFirst:"Triduum Paschalne - najbardziej wyczekiwany czas w roku liturgicznym. My Podczas Liturgii Wielkiego Tygodnia wychwalaliśmy Pana naszym śpiewem.",
+      sumUpThreeSecond:"",
+
+      subTitleFour:"Miłosierdzie Boże",
+      imageSumUpFourUrl:"howWeLook-04-22-4.jpg",
+      sumUpFourFirst:"Tyle się o nim mówi. Przypowieści o miłosiernym samarytaninie i synu marnotrawnym znamy już na pamięć. A co gdyby spojrzeć na miłosierdzie z trochę innej strony? Co gdyby postawić się w roli miłosiernego ojca?",
+      sumUpFourSecond: "",
+      
+      subTitleFive:"Modlitwa KSM-owicza",
+      imageSumUpFiveUrl:"howWeLook-04-22-5.jpg",
+      sumUpFiveFirst:"Czym jest dla nas modlitwa? Spotkaniem, oddechem, zaglądnięciem do innego świata, rozmową, trwaniem…",
+      sumUpFiveSecond:"",
+
+      month:"KWIECIEŃ",
+      mainTopic:"KRZYŻ",
+      articleId:"article-04-22"
     },
   ],
   about: {

@@ -83,6 +83,19 @@ const SingleHowWeLook = () => {
             <p>{ howWeLook.sumUpFourSecond }</p>
           </div>
         </div>
+        
+        {howWeLook.subTitleFive &&
+          <div className={styles.sumUpWrapper + ' ' + styles.left}>
+            <h6>{howWeLook.subTitleFive}</h6>
+            <div className={styles.imageSumUpWrapper}>
+              <img src={ `${process.env.PUBLIC_URL}/images/howWeLook/${howWeLook.imageSumUpFiveUrl}` } alt="" />
+            </div>
+            <div className={styles.textSumUpWrapper}>
+              <p>{ howWeLook.sumUpFiveFirst }</p>
+              <p>{ howWeLook.sumUpFiveSecond }</p>
+            </div>
+          </div>
+        }
 
         <LinkWrapper month={howWeLook.month} option={'POPATRZ NA...'} mainTopic={howWeLook.mainTopic} linkTo={"/article/"} linkId={howWeLook.articleId} />
         <div className={styles.socialMedia}>
