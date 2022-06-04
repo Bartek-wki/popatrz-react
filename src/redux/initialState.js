@@ -149,8 +149,8 @@ const initialState = {
     },
     {
       articleId:"article-04-22",
-      previous:"article-03-22-2",
-      next:"article-04-22",
+      previous:"article-03-22",
+      next:"article-05-22",
       articleTitle:"Popatrz na… KRZYŻ",
       imageUrl:"popatrz-04-22.jpg",
       opis: "KRZYŻ",
@@ -191,6 +191,51 @@ const initialState = {
       month:"KWIECIEŃ",
       mainTopic:"KRZYŻ",
       howWeLook:"howWeLook-04-22"
+    },
+    {
+      articleId:"article-05-22",
+      previous:"article-04-22",
+      next:"article-05-22",
+      articleTitle:"Popatrz na… WIARĘ",
+      imageUrl:"popatrz-05-22.jpg",
+      opis: "Wiara",
+      paragraphs: [
+        {
+          id: '1',
+          subtitle: "",
+          text: "",
+          quote: "Człowiek bez wiary jest jak podróżnik bez celu, jak ktoś kto walczy bez nadziei na zwycięstwo – św. Augustyn.",
+        },
+        {
+          id: '2',
+          subtitle: "Przygotowanie",
+          text: "Podążając za myślą św. Augustyna, naszą wiarę można porównać właśnie do podróży. Pierwszą rzeczą, robioną przed każdą wycieczką, jest przygotowanie potrzebnych rzeczy oraz wytyczenie trasy, którą zamierzamy iść. Warto się zastanowić, czy aby na pewno jestem gotowy, żeby wyruszyć. Analogię znajdujemy, gdy spojrzymy na nasze życie duchowe: Czy mam przy sobie Pismo Święte i chętnie po nie sięgam, szukam w nim podpowiedzi jak żyć? Czy jest przy mnie Jezus – przyjaciel, z którym mógłbym podzielić się wrażeniami, tym co mnie zasmuciło lub co sprawiło radość? A może czegoś zabrałem aż nadto i teraz tylko mi to ciąży – toksyczne relacje, uzależnienia, wypowiedziane w gniewie słowa…",
+          quote: "",
+        },
+        {
+          id: '3',
+          subtitle: "Podróż",
+          text: "Na drodze duchowego rozwoju nie zawsze jest łatwo. Z pewnością napotkam różne przeszkody, coś może pójść nie tak, jak sobie zaplanowałem, a może przyjdzie mi zupełnie zmienić trasę. Może już na starcie źle oceniłem własne możliwości i teraz, aby naliczyć dzienną liczbę kroków do przejścia, zbytnio się spieszę lub odwrotnie – z powodu lenistwa wybrałem drogę na skróty i okazało się, że zabłądziłem. Zawsze jednak mogę wrócić, odnaleźć właściwą ścieżkę. Gdy już braknie sił, a bagaż przygniecie do ziemi, muszę pamiętać, że przy boku mam Jezusa, który pomaga mi go nieść. Razem jesteśmy w stanie zdobyć każdy szczyt.",
+          quote: "",
+        },
+        {
+          id: '4',
+          subtitle: "Cel",
+          text: "Wizualizacja tego, co czeka na końcu drogi jest motywacją do podjęcia i kontynuowania podróży. Czy w takim razie wiem, jaki jest mój cel? Czy aby na pewno jest to zbawienie? Może zależy mi tylko na pooglądaniu pięknych widoków albo dobrej zabawie w miłym towarzystwie? Zrobieniu zdjęć na szczycie?",
+          quote: "",
+        },
+        {
+          id: '5',
+          subtitle: "",
+          text: "Po co ja idę drogą wiary?",
+          quote: "",
+        },
+      ],
+      author: "Justyna Mirek",
+      introParagraph: "Człowiek bez wiary jest jak podróżnik bez celu, jak ktoś kto walczy bez nadziei na zwycięstwo – św. Augustyn.",
+      month:"MAJ",
+      mainTopic:"WIARĘ",
+      howWeLook:"howWeLook-05-22"
     },
   ],
   howWeLook: [
@@ -297,7 +342,7 @@ const initialState = {
     {
       howWeLook:"howWeLook-04-22",
       previous:"howWeLook-03-22",
-      next:"howWeLook-04-22", 
+      next:"howWeLook-05-22", 
       howWeLookTitle:"Na co my patrzyliśmy w Kwietniu",
       meets: [
         {
@@ -352,6 +397,47 @@ const initialState = {
       month:"KWIECIEŃ",
       mainTopic:"KRZYŻ",
       articleId:"article-04-22"
+    },
+    {
+      howWeLook:"howWeLook-05-22",
+      previous:"howWeLook-04-22",
+      next:"howWeLook-05-22", 
+      howWeLookTitle:"Na co my patrzyliśmy w Maju",
+      meets: [
+        {
+          data: "06.05.2022 r",
+          name: "8 błogosławieństw",
+        },
+        {
+          data: "20.05.2022 r",
+          name: "Kobiecość i feminizm",
+        },
+        {
+          data: "27.05.2022 r",
+          name: "Chrześcijaństwo a inne religie",
+        },        
+      ],      
+      imageCalendarUrl:"calendar-05-22.jpg",
+      opis:"Calendar",
+      
+      subTitleOne: "8 błogosławieństw",
+      imageSumUpOneUrl:"howWeLook-05-22-1.jpg",
+      sumUpOneFirst:"Możemy gdzieniegdzie usłyszeć  że Stary Testament to 10 przykazań, a Nowy Testament to 8 błogosławieństw. To daleko idące uproszczenie. Przykazania mówią o tym co wolno robić, a czego robić nie wolno, więc pełnią rolę moralizującą.",
+      sumUpOneSecond:"Błogosławieństwa w ogóle nie mówią o tym co jest dobre a co złe. One mają wymiar egzystencjalny. Opisują człowieka, który jest szczęśliwy ponieważ realizuje zamysł Boga co do człowieka.",
+      
+      subTitleTwo:"Kobiecość i feminizm",
+      imageSumUpTwoUrl:"howWeLook-05-22-2.jpg",
+      sumUpTwoFirst:"Feminizm - hasło tak często powtarzane w mediach społecznych. Prawdziwy feminizm powinien podkreślać piękno kobiety. Jan Paweł II wspominał tu o wyrażaniu ,kobiecego geniuszu”. Inspiracją na tej drodze mogą być kobiety, które poznajemy na kartach Pisma Świętego.",
+      sumUpTwoSecond:"",
+
+      subTitleThree:"Chrześcijaństwo a inne religie",
+      imageSumUpThreeUrl:"howWeLook-05-22-3.jpg",
+      sumUpThreeFirst:"Bóg jest Jeden. Chrystus przyszedł na świat, jako Bóg i człowiek, poza Nim nie ma zbawienia. Do wyznawców innych religii powinniśmy odnosić się szacunkiem, poprzez rozmowę i współpracę dawać im świadectwo o Prawdzie, jaką poznajemy w Ewangelii.",
+      sumUpThreeSecond: "",
+      
+      month:"MAJ",
+      mainTopic:"WIARĘ",
+      articleId:"article-05-22"
     },
   ],
   about: {

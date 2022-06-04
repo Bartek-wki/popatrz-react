@@ -73,7 +73,7 @@ const SingleHowWeLook = () => {
           </div>
         </div>
 
-        <div className={styles.sumUpWrapper + ' ' + styles.right}>
+        {howWeLook.subTitleFour && <div className={styles.sumUpWrapper + ' ' + styles.right}>
           <h6>{howWeLook.subTitleFour}</h6>
           <div className={styles.imageSumUpWrapper}>
             <img src={ `${process.env.PUBLIC_URL}/images/howWeLook/${howWeLook.imageSumUpFourUrl}` } alt="" />
@@ -82,7 +82,7 @@ const SingleHowWeLook = () => {
             <p>{ howWeLook.sumUpFourFirst }</p>
             <p>{ howWeLook.sumUpFourSecond }</p>
           </div>
-        </div>
+        </div>}
         
         {howWeLook.subTitleFive &&
           <div className={styles.sumUpWrapper + ' ' + styles.left}>
