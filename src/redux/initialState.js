@@ -195,7 +195,7 @@ const initialState = {
     {
       articleId:"article-05-22",
       previous:"article-04-22",
-      next:"article-05-22",
+      next:"article-06-22",
       articleTitle:"Popatrz na… WIARĘ",
       imageUrl:"popatrz-05-22.jpg",
       opis: "Wiara",
@@ -236,6 +236,56 @@ const initialState = {
       month:"MAJ",
       mainTopic:"WIARĘ",
       howWeLook:"howWeLook-05-22"
+    },
+    {
+      articleId:"article-06-22",
+      previous:"article-05-22",
+      next:"article-06-22",
+      articleTitle:"Popatrz na… DUCHA ŚWIĘTEGO",
+      imageUrl:"popatrz-06-22.jpg",
+      opis: "Duch Święty",
+      paragraphs: [
+        {
+          id: '1',
+          subtitle: "Dar od Ojca",
+          text: "Lubimy dawać prezenty naszym bliskim. Korzystamy z różnych okazji, aby sprawić im przyjemność. Urodziny, imieniny, mikołajki itp. Jesteśmy szczęśliwi, kiedy widzimy uśmiech na twarzy przyjaciela przyjmującego nasz dar. Doświadczamy przykrości kiedy odwiedzając bliskiego zobaczymy na jednej z półek nierozpakowany, zakurzony prezent, który ofiarowaliśmy mu już dawno temu. Nasz Ojciec w Niebie jest niekwestionowanym mistrzem w robieniu prezentów. W sakramencie chrztu świętego oraz bierzmowania otrzymaliśmy w darze Jego Ducha. Ale czy na pewno już rozpakowaliśmy ten prezent? Może jest tak, że od naszego bierzmowania minęło już 5, 10, 15 lat, a wspaniały podarunek od naszego Ojca nadal leży nierozpakowany? A może rozpakowaliśmy prezent, wyciągnęliśmy zawartość z pudełka ale nie wiedzieliśmy do czego to służy i jak z tego korzystać (kto by czytał instrukcję). Dalszą część artykułu można uznać za skróconą instrukcję obsługi tego podarunku jakim jest Duch Święty. W tym celu przyjrzymy się kilku z pośród symboli Ducha Świętego, które wymienia Katechizm Kościoła Katolickiego. Pomoże nam to rozpoznać możliwe działanie Ducha Świętego w naszym życiu, a więc potocznie mówiąc wreszcie dowiemy się do czego to służy.",
+          quote: "",
+        },
+        {
+          id: '2',
+          subtitle: "Woda",
+          text: "Woda posiada potrójne znaczenie: symbol życia (bez wody nie ma życia), symbol czystości (zmywamy brud z siebie), symbol zniszczenia (potop, powódź, tsunami niszczą). Symbolem Ducha Świętego jest woda, bo to On daje życie prawdziwe. On oczyszcza umysł i serce. On wreszcie pomaga nam się zmienić, niszcząc w nas zło i grzech.",
+          quote: "",
+        },
+        {
+          id: '3',
+          subtitle: "Namaszczenie",
+          text: "Greckie słowo ''aleifo'' oznacza ''namaszczać'' i ''przygotowywać do walki''. Bóg nie usuwa trudności z naszego życia. Ale robi coś innego, lepszego. Daje siłę abyśmy z tymi trudnościami sobie poradzili. Duch Święty nas wzmacnia. To, co kiedyś wydawało się zbyt trudne, nie do przeskoczenia, dzięki Niemu staje się możliwe. W starożytności zapaśnicy namaszczali się olejem, ponieważ śliskie ciało było trudne do chwycenia. To był jeden ze sposobów przygotowania do walki. Ponadto oliwa pomaga goić, leczyć rany. Każdy z nas ma jakieś rany, coś co nas boli. Duch Święty pomaga w gojeniu tych ran, żeby się zasklepiły.",
+          quote: "",
+        },
+        {
+          id: '4',
+          subtitle: "Ogień",
+          text: "Ogień jest żywiołem, który niszczy. Nieraz słyszymy o pożarach. Wypalenie może także odgrywać pozytywną rolę. Dawniej wypalano rany, żeby nie wdało się zakażenie. Potrzebujemy zarówno światła jak i ciepła. Bez światła nie widzimy nic, potykamy się na drodze, gubimy się, nie wiedząc w jakim kierunku iść.  Duch Święty jest jak ogień. Zapala. Daje zapał, obdarza siłą i mocą. Dzięki Niemu stajemy się zapaleńcami.",
+          quote: "",
+        },
+        {
+          id: '5',
+          subtitle: "Gołębica",
+          text: "Gołębica to jedyny żywy symbol Ducha Świętego. Duch Święty zstąpił na Jezusa w postaci gołębicy podczas chrztu w Jordanie. Jak pamiętamy, Noe wypuścił z arki gołębice, która powróciła do niego z gałązką oliwną, co było znakiem zakończenia potopu. Dziś Duch Święty w ludzkim sercu zapowiada koniec zła i rodzi pokój. Gołębica była również symbolem miłości. Pan Jezus zachęcał, żeby być łagodnym jak gołąb (Mt 10, 16).",
+          quote: "",
+        },
+        {
+          id: '6',
+          subtitle: "Rozpakuj swój prezent",
+          text: "Teraz kiedy już wiesz jak obchodzić się z darem Ducha Świętego, nie pozostaje nic innego jak zacząć z niego korzystać. Działanie Ducha Świętego w ludzkim sercu jest niesamowite, jeśli tylko mu na nie pozwolimy, jeśli go zaprosimy do serca i powiemy ''Działaj''. Bóg w przeciwieństwie do złego ducha nic nie czyni przemocą. Przychodzi tylko wtedy, gdy jest zaproszony. Będzie działał w nas tylko wtedy, gdy Go o to poprosimy.",
+          quote: "",
+        },      ],
+      author: "Bartosz Wilki",
+      introParagraph: "Nasz Ojciec w Niebie jest niekwestionowanym mistrzem w robieniu prezentów. W sakramencie chrztu świętego oraz bierzmowania otrzymaliśmy w darze Jego Ducha. Ale czy na pewno już rozpakowaliśmy ten prezent?",
+      month:"CZERWIEC",
+      mainTopic:"DUCHA ŚWIĘTEGO",
+      howWeLook:"howWeLook-06-22"
     },
   ],
   howWeLook: [
@@ -401,7 +451,7 @@ const initialState = {
     {
       howWeLook:"howWeLook-05-22",
       previous:"howWeLook-04-22",
-      next:"howWeLook-05-22", 
+      next:"howWeLook-06-22", 
       howWeLookTitle:"Na co my patrzyliśmy w Maju",
       meets: [
         {
@@ -438,6 +488,56 @@ const initialState = {
       month:"MAJ",
       mainTopic:"WIARĘ",
       articleId:"article-05-22"
+    },
+    {
+      howWeLook:"howWeLook-06-22",
+      previous:"howWeLook-05-22",
+      next:"howWeLook-06-22", 
+      howWeLookTitle:"Na co my patrzyliśmy w Czerwcu",
+      meets: [
+        {
+          data: "03.06.2022 r",
+          name: "Sposoby modlitwy Słowem Bożym",
+        },
+        {
+          data: "16.06.2022 r",
+          name: "Koncert Jednego Serca Jednego Ducha",
+        },
+        {
+          data: "17.05.2022 r",
+          name: "Wspólne rozważanie Słowa Bożego",
+        },
+        {
+          data: "26.06.2022 r",
+          name: "Zakończenie roku formacyjnego",
+        },
+      ],      
+      imageCalendarUrl:"calendar-06-22.jpg",
+      opis:"Calendar",
+      
+      subTitleOne: "Sposoby modlitwy Słowem Bożym",
+      imageSumUpOneUrl:"howWeLook-06-22-1.jpg",
+      sumUpOneFirst:"Pismo Święte nie jest zwykłą książką do czytania. Jest jednym z najważniejszych narzędzi modlitewnych jakie mamy!",
+      sumUpOneSecond:"",
+      
+      subTitleTwo:"Koncert Jednego Serca Jednego Ducha",
+      imageSumUpTwoUrl:"howWeLook-06-22-2.jpg",
+      sumUpTwoFirst:"Jeden duch i jedno serce ożywiały wszystkich wierzących (Dz 4, 32). Jak każdego roku w Boże Ciało Park Sybiraków wypełniany jest po brzegi tysiącami wiernych, którzy pragną wielbić Boga poprzez śpiew, taniec i wspólną zabawę.",
+      sumUpTwoSecond:"",
+
+      subTitleThree:"Wspólne rozważanie Słowa Bożego",
+      imageSumUpThreeUrl:"howWeLook-06-22-3.jpg",
+      sumUpThreeFirst:"Rozważając Słowo Boże na kolejną Niedzielę lepiej przygotowujemy się do udziału we Mszy Świętej. Ponadto dzieląc się swoimi przemyśleniami na temat danych fragmentów Pisma Świętego ubogacamy się wzajemnie i odkrywamy głębie Słowa Bożego, którego każdego może dotknąć w inny sposób.",
+      sumUpThreeSecond: "",
+
+      subTitleFour:"Zakończenie roku formacyjnego",
+      imageSumUpFourUrl:"howWeLook-05-22-3.jpg",
+      sumUpFourFirst:"Ten spędzony razem wieczór podsumowują trzy słowa: uwielbienie, wdzięczność i prośba. Uwielbienie za ogrom łask, które otrzymaliśmy w ciągu tego roku, wdzięczność za wzajemne świadectwa, towarzyszenie i rozwój oraz prośby, byśmy i w przyszłym roku byli prowadzeni w życiu duchowym.",
+      sumUpFourSecond: "",
+      
+      month:"CZERWIEC",
+      mainTopic:"DUCHA ŚWIĘTEGO",
+      articleId:"article-06-22"
     },
   ],
   about: {
