@@ -531,7 +531,7 @@ const initialState = {
       sumUpThreeSecond: "",
 
       subTitleFour:"Zakończenie roku formacyjnego",
-      imageSumUpFourUrl:"howWeLook-05-22-3.jpg",
+      imageSumUpFourUrl:"howWeLook-06-22-4.jpg",
       sumUpFourFirst:"Ten spędzony razem wieczór podsumowują trzy słowa: uwielbienie, wdzięczność i prośba. Uwielbienie za ogrom łask, które otrzymaliśmy w ciągu tego roku, wdzięczność za wzajemne świadectwa, towarzyszenie i rozwój oraz prośby, byśmy i w przyszłym roku byli prowadzeni w życiu duchowym.",
       sumUpFourSecond: "",
       
